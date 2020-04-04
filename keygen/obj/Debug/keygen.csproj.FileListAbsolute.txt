@@ -1,0 +1,8 @@
+E:\Programing\Work Out\c#\Mine\school management\keygen\bin\Debug\keygen.exe
+E:\Programing\Work Out\c#\Mine\school management\keygen\bin\Debug\keygen.pdb
+E:\Programing\Work Out\c#\Mine\school management\keygen\obj\Debug\ResolveAssemblyReference.cache
+E:\Programing\Work Out\c#\Mine\school management\keygen\obj\Debug\keygen.keygen.resources
+E:\Programing\Work Out\c#\Mine\school management\keygen\obj\Debug\keygen.Properties.Resources.resources
+E:\Programing\Work Out\c#\Mine\school management\keygen\obj\Debug\keygen.csproj.GenerateResource.Cache
+E:\Programing\Work Out\c#\Mine\school management\keygen\obj\Debug\keygen.exe
+E:\Programing\Work Out\c#\Mine\school management\keygen\obj\Debug\keygen.pdb

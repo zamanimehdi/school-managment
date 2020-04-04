@@ -1,0 +1,16 @@
+bin\Debug\keygen.exe
+bin\Debug\keygen.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\keygen.Properties.Resources.resources
+obj\Debug\keygen.csproj.GenerateResource.Cache
+obj\Debug\keygen.exe
+obj\Debug\keygen.pdb
+obj\Debug\keygen.keygen.resources
+bin\Release\keygen.exe
+bin\Release\keygen.pdb
+obj\Release\ResolveAssemblyReference.cache
+obj\Release\keygen.keygen.resources
+obj\Release\keygen.Properties.Resources.resources
+obj\Release\keygen.csproj.GenerateResource.Cache
+obj\Release\keygen.exe
+obj\Release\keygen.pdb

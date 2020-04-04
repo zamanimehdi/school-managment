@@ -1,0 +1,8 @@
+D:\WORK\SM PRJ - work\school management\Update SM\bin\Debug\Update SM.exe
+D:\WORK\SM PRJ - work\school management\Update SM\bin\Debug\Update SM.pdb
+D:\WORK\SM PRJ - work\school management\Update SM\obj\Debug\ResolveAssemblyReference.cache
+D:\WORK\SM PRJ - work\school management\Update SM\obj\Debug\Update_SM.Form1.resources
+D:\WORK\SM PRJ - work\school management\Update SM\obj\Debug\Update_SM.Properties.Resources.resources
+D:\WORK\SM PRJ - work\school management\Update SM\obj\Debug\Update SM.csproj.GenerateResource.Cache
+D:\WORK\SM PRJ - work\school management\Update SM\obj\Debug\Update SM.exe
+D:\WORK\SM PRJ - work\school management\Update SM\obj\Debug\Update SM.pdb

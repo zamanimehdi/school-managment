@@ -1,0 +1,399 @@
+C:\Users\Exploit\Desktop\school management\school management\Code\bin\x86\Release\school management.exe.config
+C:\Users\Exploit\Desktop\school management\school management\Code\obj\x86\Release\Interop.ADOX.dll
+C:\Users\Exploit\Desktop\school management\school management\Code\obj\x86\Release\Code.csproj.ResolveComReference.cache
+C:\Users\Exploit\Desktop\school management\school management\Code\obj\x86\Release\Code.csprojResolveAssemblyReference.cache
+C:\Users\Exploit\Desktop\school management\school management\Code\obj\x86\Release\Student.AboutBox.resources
+C:\Users\Exploit\Desktop\school management\school management\Code\obj\x86\Release\Student.frm_behaviourscore.resources
+C:\Users\Exploit\Desktop\school management\school management\Code\obj\x86\Release\Student.frm_arm.resources
+C:\Users\Exploit\Desktop\school management\school management\Code\obj\x86\Release\Student.frm_class_salane.resources
+C:\Users\Exploit\Desktop\school management\school management\Code\obj\x86\Release\Student.frm_ravand_salane.resources
+C:\Users\Exploit\Desktop\school management\school management\Code\obj\x86\Release\Student.frm_faravani.resources
+C:\Users\Exploit\Desktop\school management\school management\Code\obj\x86\Release\Student.frm_sort_dialog.resources
+C:\Users\Exploit\Desktop\school management\school management\Code\obj\x86\Release\Student.print_list_number_2.resources
+C:\Users\Exploit\Desktop\school management\school management\Code\obj\x86\Release\Student.print_list_number.resources
+C:\Users\Exploit\Desktop\school management\school management\Code\obj\x86\Release\Student.frm_print_hamahang.resources
+C:\Users\Exploit\Desktop\school management\school management\Code\obj\x86\Release\Student.frm_hamahang_test.resources
+C:\Users\Exploit\Desktop\school management\school management\Code\obj\x86\Release\Student.frm_hamahang.resources
+C:\Users\Exploit\Desktop\school management\school management\Code\obj\x86\Release\Student.print_lesson.resources
+C:\Users\Exploit\Desktop\school management\school management\Code\obj\x86\Release\Student.frm_datechange.resources
+C:\Users\Exploit\Desktop\school management\school management\Code\obj\x86\Release\Student.frm_exception.resources
+C:\Users\Exploit\Desktop\school management\school management\Code\obj\x86\Release\Student.frm_reporttofamily.resources
+C:\Users\Exploit\Desktop\school management\school management\Code\obj\x86\Release\Student.frm_nemodare_darsi.resources
+C:\Users\Exploit\Desktop\school management\school management\Code\obj\x86\Release\Student.frm_cost.resources
+C:\Users\Exploit\Desktop\school management\school management\Code\obj\x86\Release\Student.frm_db.resources
+C:\Users\Exploit\Desktop\school management\school management\Code\obj\x86\Release\Student.frm_report_hazyneha.resources
+C:\Users\Exploit\Desktop\school management\school management\Code\obj\x86\Release\Student.frm_report_cost_koli.resources
+C:\Users\Exploit\Desktop\school management\school management\Code\obj\x86\Release\Student.frm_selectclass_mali.resources
+C:\Users\Exploit\Desktop\school management\school management\Code\obj\x86\Release\Student.register.resources
+C:\Users\Exploit\Desktop\school management\school management\Code\obj\x86\Release\Student.frm_setpassword.resources
+C:\Users\Exploit\Desktop\school management\school management\Code\obj\x86\Release\Student.frm_restorebackup.resources
+C:\Users\Exploit\Desktop\school management\school management\Code\obj\x86\Release\Student.frm_getpassword.resources
+C:\Users\Exploit\Desktop\school management\school management\Code\obj\x86\Release\Student.frm_messageboxwithpass.resources
+C:\Users\Exploit\Desktop\school management\school management\Code\obj\x86\Release\Student.frm_workteacher.resources
+C:\Users\Exploit\Desktop\school management\school management\Code\obj\x86\Release\Student.Help.resources
+C:\Users\Exploit\Desktop\school management\school management\Code\obj\x86\Release\Student.frm_lesson.resources
+C:\Users\Exploit\Desktop\school management\school management\Code\obj\x86\Release\Student.frm_behaviour.resources
+C:\Users\Exploit\Desktop\school management\school management\Code\obj\x86\Release\Student.frm_class.resources
+C:\Users\Exploit\Desktop\school management\school management\Code\obj\x86\Release\Student.frm_classdialog.resources
+C:\Users\Exploit\Desktop\school management\school management\Code\obj\x86\Release\Student.frm_major.resources
+C:\Users\Exploit\Desktop\school management\school management\Code\obj\x86\Release\Student.frm_proces.resources
+C:\Users\Exploit\Desktop\school management\school management\Code\obj\x86\Release\Student.frm_schooltype.resources
+C:\Users\Exploit\Desktop\school management\school management\Code\obj\x86\Release\Student.frm_st_teacher.resources
+C:\Users\Exploit\Desktop\school management\school management\Code\obj\x86\Release\Student.frm_inputnumber.resources
+C:\Users\Exploit\Desktop\school management\school management\Code\obj\x86\Release\Student.frm_lessonteacher.resources
+C:\Users\Exploit\Desktop\school management\school management\Code\obj\x86\Release\Student.Frm_Main.resources
+C:\Users\Exploit\Desktop\school management\school management\Code\obj\x86\Release\Student.frm_prepaid.resources
+C:\Users\Exploit\Desktop\school management\school management\Code\obj\x86\Release\Student.frm_mini_dialog.resources
+C:\Users\Exploit\Desktop\school management\school management\Code\obj\x86\Release\Student.frm_preview.resources
+C:\Users\Exploit\Desktop\school management\school management\Code\obj\x86\Release\Student.Properties.Resources.resources
+C:\Users\Exploit\Desktop\school management\school management\Code\obj\x86\Release\Student.frm_test.resources
+C:\Users\Exploit\Desktop\school management\school management\Code\obj\x86\Release\Student.frm_student.resources
+C:\Users\Exploit\Desktop\school management\school management\Code\obj\x86\Release\Student.frm_choosest.resources
+C:\Users\Exploit\Desktop\school management\school management\Code\obj\x86\Release\Student.frm_teacher.resources
+C:\Users\Exploit\Desktop\school management\school management\Code\obj\x86\Release\Student.frmp_student.resources
+C:\Users\Exploit\Desktop\school management\school management\Code\obj\x86\Release\Student.frm_listnumber.resources
+C:\Users\Exploit\Desktop\school management\school management\Code\obj\x86\Release\Student.frm_selectclass.resources
+C:\Users\Exploit\Desktop\school management\school management\Code\obj\x86\Release\Student.Frm_Splash.resources
+C:\Users\Exploit\Desktop\school management\school management\Code\obj\x86\Release\Student.frm_aghsat.resources
+C:\Users\Exploit\Desktop\school management\school management\Code\obj\x86\Release\Student.frm_student_av_list.resources
+C:\Users\Exploit\Desktop\school management\school management\Code\obj\x86\Release\Code.csproj.GenerateResource.Cache
+C:\Users\Exploit\Desktop\school management\school management\Code\bin\x86\Release\Help\help.htm
+C:\Users\Exploit\Desktop\school management\school management\Code\bin\x86\Release\Help\help.jpg
+C:\Users\Exploit\Desktop\school management\school management\Code\bin\x86\Release\data.mdb
+C:\Users\Exploit\Desktop\school management\school management\Code\bin\x86\Release\school management.exe
+C:\Users\Exploit\Desktop\school management\school management\Code\bin\x86\Release\school management.pdb
+C:\Users\Exploit\Desktop\school management\school management\Code\bin\x86\Release\Interop.ADOX.dll
+C:\Users\Exploit\Desktop\school management\school management\Code\obj\x86\Release\school management.exe
+C:\Users\Exploit\Desktop\school management\school management\Code\obj\x86\Release\school management.pdb
+C:\Users\exploiter\Desktop\school management\school management\Code\bin\x86\Release\school management.exe.config
+C:\Users\exploiter\Desktop\school management\school management\Code\obj\x86\Release\Interop.ADOX.dll
+C:\Users\exploiter\Desktop\school management\school management\Code\obj\x86\Release\Code.csproj.ResolveComReference.cache
+C:\Users\exploiter\Desktop\school management\school management\Code\obj\x86\Release\school management.exe
+C:\Users\exploiter\Desktop\school management\school management\Code\obj\x86\Release\school management.pdb
+C:\Users\exploiter\Desktop\school management\school management\Code\obj\x86\Release\Student.AboutBox.resources
+C:\Users\exploiter\Desktop\school management\school management\Code\obj\x86\Release\Student.frm_behaviourscore.resources
+C:\Users\exploiter\Desktop\school management\school management\Code\obj\x86\Release\Student.frm_arm.resources
+C:\Users\exploiter\Desktop\school management\school management\Code\obj\x86\Release\Student.frm_class_salane.resources
+C:\Users\exploiter\Desktop\school management\school management\Code\obj\x86\Release\Student.frm_ravand_salane.resources
+C:\Users\exploiter\Desktop\school management\school management\Code\obj\x86\Release\Student.frm_faravani.resources
+C:\Users\exploiter\Desktop\school management\school management\Code\obj\x86\Release\Student.frm_sort_dialog.resources
+C:\Users\exploiter\Desktop\school management\school management\Code\obj\x86\Release\Student.print_list_number_2.resources
+C:\Users\exploiter\Desktop\school management\school management\Code\obj\x86\Release\Student.print_list_number.resources
+C:\Users\exploiter\Desktop\school management\school management\Code\obj\x86\Release\Student.frm_print_hamahang.resources
+C:\Users\exploiter\Desktop\school management\school management\Code\obj\x86\Release\Student.frm_hamahang_test.resources
+C:\Users\exploiter\Desktop\school management\school management\Code\obj\x86\Release\Student.frm_hamahang.resources
+C:\Users\exploiter\Desktop\school management\school management\Code\obj\x86\Release\Student.print_lesson.resources
+C:\Users\exploiter\Desktop\school management\school management\Code\obj\x86\Release\Student.frm_datechange.resources
+C:\Users\exploiter\Desktop\school management\school management\Code\obj\x86\Release\Student.frm_exception.resources
+C:\Users\exploiter\Desktop\school management\school management\Code\obj\x86\Release\Student.frm_reporttofamily.resources
+C:\Users\exploiter\Desktop\school management\school management\Code\obj\x86\Release\Student.frm_nemodare_darsi.resources
+C:\Users\exploiter\Desktop\school management\school management\Code\obj\x86\Release\Student.frm_cost.resources
+C:\Users\exploiter\Desktop\school management\school management\Code\obj\x86\Release\Student.frm_db.resources
+C:\Users\exploiter\Desktop\school management\school management\Code\obj\x86\Release\Student.frm_report_hazyneha.resources
+C:\Users\exploiter\Desktop\school management\school management\Code\obj\x86\Release\Student.frm_report_cost_koli.resources
+C:\Users\exploiter\Desktop\school management\school management\Code\obj\x86\Release\Student.frm_selectclass_mali.resources
+C:\Users\exploiter\Desktop\school management\school management\Code\obj\x86\Release\Student.register.resources
+C:\Users\exploiter\Desktop\school management\school management\Code\obj\x86\Release\Student.frm_setpassword.resources
+C:\Users\exploiter\Desktop\school management\school management\Code\obj\x86\Release\Student.frm_restorebackup.resources
+C:\Users\exploiter\Desktop\school management\school management\Code\obj\x86\Release\Student.frm_getpassword.resources
+C:\Users\exploiter\Desktop\school management\school management\Code\obj\x86\Release\Student.frm_messageboxwithpass.resources
+C:\Users\exploiter\Desktop\school management\school management\Code\obj\x86\Release\Student.frm_workteacher.resources
+C:\Users\exploiter\Desktop\school management\school management\Code\obj\x86\Release\Student.Help.resources
+C:\Users\exploiter\Desktop\school management\school management\Code\obj\x86\Release\Student.frm_lesson.resources
+C:\Users\exploiter\Desktop\school management\school management\Code\obj\x86\Release\Student.frm_behaviour.resources
+C:\Users\exploiter\Desktop\school management\school management\Code\obj\x86\Release\Student.frm_class.resources
+C:\Users\exploiter\Desktop\school management\school management\Code\obj\x86\Release\Student.frm_classdialog.resources
+C:\Users\exploiter\Desktop\school management\school management\Code\obj\x86\Release\Student.frm_major.resources
+C:\Users\exploiter\Desktop\school management\school management\Code\obj\x86\Release\Student.frm_proces.resources
+C:\Users\exploiter\Desktop\school management\school management\Code\obj\x86\Release\Student.frm_schooltype.resources
+C:\Users\exploiter\Desktop\school management\school management\Code\obj\x86\Release\Student.frm_st_teacher.resources
+C:\Users\exploiter\Desktop\school management\school management\Code\obj\x86\Release\Student.frm_inputnumber.resources
+C:\Users\exploiter\Desktop\school management\school management\Code\obj\x86\Release\Student.frm_lessonteacher.resources
+C:\Users\exploiter\Desktop\school management\school management\Code\obj\x86\Release\Student.Frm_Main.resources
+C:\Users\exploiter\Desktop\school management\school management\Code\obj\x86\Release\Student.frm_prepaid.resources
+C:\Users\exploiter\Desktop\school management\school management\Code\obj\x86\Release\Student.frm_mini_dialog.resources
+C:\Users\exploiter\Desktop\school management\school management\Code\obj\x86\Release\Student.frm_preview.resources
+C:\Users\exploiter\Desktop\school management\school management\Code\obj\x86\Release\Student.Properties.Resources.resources
+C:\Users\exploiter\Desktop\school management\school management\Code\obj\x86\Release\Student.frm_test.resources
+C:\Users\exploiter\Desktop\school management\school management\Code\obj\x86\Release\Student.frm_student.resources
+C:\Users\exploiter\Desktop\school management\school management\Code\obj\x86\Release\Student.frm_choosest.resources
+C:\Users\exploiter\Desktop\school management\school management\Code\obj\x86\Release\Student.frm_teacher.resources
+C:\Users\exploiter\Desktop\school management\school management\Code\obj\x86\Release\Student.frmp_student.resources
+C:\Users\exploiter\Desktop\school management\school management\Code\obj\x86\Release\Student.frm_listnumber.resources
+C:\Users\exploiter\Desktop\school management\school management\Code\obj\x86\Release\Student.frm_selectclass.resources
+C:\Users\exploiter\Desktop\school management\school management\Code\obj\x86\Release\Student.Frm_Splash.resources
+C:\Users\exploiter\Desktop\school management\school management\Code\obj\x86\Release\Student.frm_aghsat.resources
+C:\Users\exploiter\Desktop\school management\school management\Code\obj\x86\Release\Student.frm_student_av_list.resources
+C:\Users\exploiter\Desktop\school management\school management\Code\obj\x86\Release\Code.csproj.GenerateResource.Cache
+C:\Users\exploiter\Desktop\school management\school management\Code\bin\x86\Release\Help\help.htm
+C:\Users\exploiter\Desktop\school management\school management\Code\bin\x86\Release\Help\help.jpg
+C:\Users\exploiter\Desktop\school management\school management\Code\bin\x86\Release\data.mdb
+C:\Users\exploiter\Desktop\school management\school management\Code\bin\x86\Release\school management.exe
+C:\Users\exploiter\Desktop\school management\school management\Code\bin\x86\Release\school management.pdb
+C:\Users\exploiter\Desktop\school management\school management\Code\bin\x86\Release\Interop.ADOX.dll
+E:\school management\school management\Code\bin\x86\Release\school management.exe.config
+E:\school management\school management\Code\obj\x86\Release\Interop.ADOX.dll
+E:\school management\school management\Code\obj\x86\Release\Code.csproj.ResolveComReference.cache
+E:\school management\school management\Code\obj\x86\Release\school management.exe
+E:\school management\school management\Code\obj\x86\Release\school management.pdb
+E:\school management\school management\Code\bin\x86\Release\Help\help.htm
+E:\school management\school management\Code\bin\x86\Release\Help\help.jpg
+E:\school management\school management\Code\bin\x86\Release\data.mdb
+E:\school management\school management\Code\bin\x86\Release\school management.exe
+E:\school management\school management\Code\bin\x86\Release\school management.pdb
+E:\school management\school management\Code\bin\x86\Release\Interop.ADOX.dll
+E:\school management\school management\Code\obj\x86\Release\Student.AboutBox.resources
+E:\school management\school management\Code\obj\x86\Release\Student.frm_behaviourscore.resources
+E:\school management\school management\Code\obj\x86\Release\Student.frm_arm.resources
+E:\school management\school management\Code\obj\x86\Release\Student.frm_class_salane.resources
+E:\school management\school management\Code\obj\x86\Release\Student.frm_ravand_salane.resources
+E:\school management\school management\Code\obj\x86\Release\Student.frm_faravani.resources
+E:\school management\school management\Code\obj\x86\Release\Student.frm_sort_dialog.resources
+E:\school management\school management\Code\obj\x86\Release\Student.print_list_number_2.resources
+E:\school management\school management\Code\obj\x86\Release\Student.print_list_number.resources
+E:\school management\school management\Code\obj\x86\Release\Student.frm_print_hamahang.resources
+E:\school management\school management\Code\obj\x86\Release\Student.frm_hamahang_test.resources
+E:\school management\school management\Code\obj\x86\Release\Student.frm_hamahang.resources
+E:\school management\school management\Code\obj\x86\Release\Student.print_lesson.resources
+E:\school management\school management\Code\obj\x86\Release\Student.frm_datechange.resources
+E:\school management\school management\Code\obj\x86\Release\Student.frm_exception.resources
+E:\school management\school management\Code\obj\x86\Release\Student.frm_reporttofamily.resources
+E:\school management\school management\Code\obj\x86\Release\Student.frm_nemodare_darsi.resources
+E:\school management\school management\Code\obj\x86\Release\Student.frm_cost.resources
+E:\school management\school management\Code\obj\x86\Release\Student.frm_db.resources
+E:\school management\school management\Code\obj\x86\Release\Student.frm_report_hazyneha.resources
+E:\school management\school management\Code\obj\x86\Release\Student.frm_report_cost_koli.resources
+E:\school management\school management\Code\obj\x86\Release\Student.frm_selectclass_mali.resources
+E:\school management\school management\Code\obj\x86\Release\Student.register.resources
+E:\school management\school management\Code\obj\x86\Release\Student.frm_setpassword.resources
+E:\school management\school management\Code\obj\x86\Release\Student.frm_restorebackup.resources
+E:\school management\school management\Code\obj\x86\Release\Student.frm_getpassword.resources
+E:\school management\school management\Code\obj\x86\Release\Student.frm_messageboxwithpass.resources
+E:\school management\school management\Code\obj\x86\Release\Student.frm_workteacher.resources
+E:\school management\school management\Code\obj\x86\Release\Student.Help.resources
+E:\school management\school management\Code\obj\x86\Release\Student.frm_lesson.resources
+E:\school management\school management\Code\obj\x86\Release\Student.frm_behaviour.resources
+E:\school management\school management\Code\obj\x86\Release\Student.frm_class.resources
+E:\school management\school management\Code\obj\x86\Release\Student.frm_classdialog.resources
+E:\school management\school management\Code\obj\x86\Release\Student.frm_major.resources
+E:\school management\school management\Code\obj\x86\Release\Student.frm_proces.resources
+E:\school management\school management\Code\obj\x86\Release\Student.frm_schooltype.resources
+E:\school management\school management\Code\obj\x86\Release\Student.frm_st_teacher.resources
+E:\school management\school management\Code\obj\x86\Release\Student.frm_inputnumber.resources
+E:\school management\school management\Code\obj\x86\Release\Student.frm_lessonteacher.resources
+E:\school management\school management\Code\obj\x86\Release\Student.Frm_Main.resources
+E:\school management\school management\Code\obj\x86\Release\Student.frm_prepaid.resources
+E:\school management\school management\Code\obj\x86\Release\Student.frm_mini_dialog.resources
+E:\school management\school management\Code\obj\x86\Release\Student.frm_preview.resources
+E:\school management\school management\Code\obj\x86\Release\Student.Properties.Resources.resources
+E:\school management\school management\Code\obj\x86\Release\Student.frm_test.resources
+E:\school management\school management\Code\obj\x86\Release\Student.frm_student.resources
+E:\school management\school management\Code\obj\x86\Release\Student.frm_choosest.resources
+E:\school management\school management\Code\obj\x86\Release\Student.frm_teacher.resources
+E:\school management\school management\Code\obj\x86\Release\Student.frmp_student.resources
+E:\school management\school management\Code\obj\x86\Release\Student.frm_listnumber.resources
+E:\school management\school management\Code\obj\x86\Release\Student.frm_selectclass.resources
+E:\school management\school management\Code\obj\x86\Release\Student.Frm_Splash.resources
+E:\school management\school management\Code\obj\x86\Release\Student.frm_aghsat.resources
+E:\school management\school management\Code\obj\x86\Release\Student.frm_student_av_list.resources
+E:\school management\school management\Code\obj\x86\Release\Code.csproj.GenerateResource.Cache
+E:\school management\school management 6.2\Code\bin\x86\Release\school management.exe.config
+E:\school management\school management 6.2\Code\obj\x86\Release\Interop.ADOX.dll
+E:\school management\school management 6.2\Code\obj\x86\Release\Code.csproj.ResolveComReference.cache
+E:\school management\school management 6.2\Code\obj\x86\Release\school management.exe
+E:\school management\school management 6.2\Code\obj\x86\Release\school management.pdb
+E:\school management\school management 6.2\Code\bin\x86\Release\Help\help.htm
+E:\school management\school management 6.2\Code\bin\x86\Release\Help\help.jpg
+E:\school management\school management 6.2\Code\bin\x86\Release\data.mdb
+E:\school management\school management 6.2\Code\bin\x86\Release\school management.exe
+E:\school management\school management 6.2\Code\bin\x86\Release\school management.pdb
+E:\school management\school management 6.2\Code\bin\x86\Release\Interop.ADOX.dll
+E:\school management\school management 6.2\Code\obj\x86\Release\Student.AboutBox.resources
+E:\school management\school management 6.2\Code\obj\x86\Release\Student.frm_behaviourscore.resources
+E:\school management\school management 6.2\Code\obj\x86\Release\Student.frm_arm.resources
+E:\school management\school management 6.2\Code\obj\x86\Release\Student.frm_class_salane.resources
+E:\school management\school management 6.2\Code\obj\x86\Release\Student.frm_ravand_salane.resources
+E:\school management\school management 6.2\Code\obj\x86\Release\Student.frm_faravani.resources
+E:\school management\school management 6.2\Code\obj\x86\Release\Student.frm_sort_dialog.resources
+E:\school management\school management 6.2\Code\obj\x86\Release\Student.print_list_number_2.resources
+E:\school management\school management 6.2\Code\obj\x86\Release\Student.print_list_number.resources
+E:\school management\school management 6.2\Code\obj\x86\Release\Student.frm_print_hamahang.resources
+E:\school management\school management 6.2\Code\obj\x86\Release\Student.frm_hamahang_test.resources
+E:\school management\school management 6.2\Code\obj\x86\Release\Student.frm_hamahang.resources
+E:\school management\school management 6.2\Code\obj\x86\Release\Student.print_lesson.resources
+E:\school management\school management 6.2\Code\obj\x86\Release\Student.frm_datechange.resources
+E:\school management\school management 6.2\Code\obj\x86\Release\Student.frm_exception.resources
+E:\school management\school management 6.2\Code\obj\x86\Release\Student.frm_reporttofamily.resources
+E:\school management\school management 6.2\Code\obj\x86\Release\Student.frm_nemodare_darsi.resources
+E:\school management\school management 6.2\Code\obj\x86\Release\Student.frm_cost.resources
+E:\school management\school management 6.2\Code\obj\x86\Release\Student.frm_db.resources
+E:\school management\school management 6.2\Code\obj\x86\Release\Student.frm_report_hazyneha.resources
+E:\school management\school management 6.2\Code\obj\x86\Release\Student.frm_report_cost_koli.resources
+E:\school management\school management 6.2\Code\obj\x86\Release\Student.frm_selectclass_mali.resources
+E:\school management\school management 6.2\Code\obj\x86\Release\Student.register.resources
+E:\school management\school management 6.2\Code\obj\x86\Release\Student.frm_setpassword.resources
+E:\school management\school management 6.2\Code\obj\x86\Release\Student.frm_restorebackup.resources
+E:\school management\school management 6.2\Code\obj\x86\Release\Student.frm_getpassword.resources
+E:\school management\school management 6.2\Code\obj\x86\Release\Student.frm_messageboxwithpass.resources
+E:\school management\school management 6.2\Code\obj\x86\Release\Student.frm_workteacher.resources
+E:\school management\school management 6.2\Code\obj\x86\Release\Student.Help.resources
+E:\school management\school management 6.2\Code\obj\x86\Release\Student.frm_lesson.resources
+E:\school management\school management 6.2\Code\obj\x86\Release\Student.frm_behaviour.resources
+E:\school management\school management 6.2\Code\obj\x86\Release\Student.frm_class.resources
+E:\school management\school management 6.2\Code\obj\x86\Release\Student.frm_classdialog.resources
+E:\school management\school management 6.2\Code\obj\x86\Release\Student.frm_major.resources
+E:\school management\school management 6.2\Code\obj\x86\Release\Student.frm_proces.resources
+E:\school management\school management 6.2\Code\obj\x86\Release\Student.frm_schooltype.resources
+E:\school management\school management 6.2\Code\obj\x86\Release\Student.frm_st_teacher.resources
+E:\school management\school management 6.2\Code\obj\x86\Release\Student.frm_inputnumber.resources
+E:\school management\school management 6.2\Code\obj\x86\Release\Student.frm_lessonteacher.resources
+E:\school management\school management 6.2\Code\obj\x86\Release\Student.Frm_Main.resources
+E:\school management\school management 6.2\Code\obj\x86\Release\Student.frm_prepaid.resources
+E:\school management\school management 6.2\Code\obj\x86\Release\Student.frm_mini_dialog.resources
+E:\school management\school management 6.2\Code\obj\x86\Release\Student.frm_preview.resources
+E:\school management\school management 6.2\Code\obj\x86\Release\Student.Properties.Resources.resources
+E:\school management\school management 6.2\Code\obj\x86\Release\Student.frm_test.resources
+E:\school management\school management 6.2\Code\obj\x86\Release\Student.frm_student.resources
+E:\school management\school management 6.2\Code\obj\x86\Release\Student.frm_choosest.resources
+E:\school management\school management 6.2\Code\obj\x86\Release\Student.frm_teacher.resources
+E:\school management\school management 6.2\Code\obj\x86\Release\Student.frmp_student.resources
+E:\school management\school management 6.2\Code\obj\x86\Release\Student.frm_listnumber.resources
+E:\school management\school management 6.2\Code\obj\x86\Release\Student.frm_selectclass.resources
+E:\school management\school management 6.2\Code\obj\x86\Release\Student.Frm_Splash.resources
+E:\school management\school management 6.2\Code\obj\x86\Release\Student.frm_aghsat.resources
+E:\school management\school management 6.2\Code\obj\x86\Release\Student.frm_student_av_list.resources
+E:\school management\school management 6.2\Code\obj\x86\Release\Code.csproj.GenerateResource.Cache
+D:\Programing\c#\Mine\school management\school management 6.2 با ابتدایی\Code\bin\x86\Release\school management.exe.config
+D:\Programing\c#\Mine\school management\school management 6.2 با ابتدایی\Code\obj\x86\Release\Interop.ADOX.dll
+D:\Programing\c#\Mine\school management\school management 6.2 با ابتدایی\Code\obj\x86\Release\Code.csproj.ResolveComReference.cache
+D:\Programing\c#\Mine\school management\school management 6.2 با ابتدایی\Code\obj\x86\Release\school management.exe
+D:\Programing\c#\Mine\school management\school management 6.2 با ابتدایی\Code\obj\x86\Release\school management.pdb
+D:\Programing\c#\Mine\school management\school management 6.2 با ابتدایی\Code\obj\x86\Release\Code.csprojResolveAssemblyReference.cache
+D:\Programing\c#\Mine\school management\school management 6.2 با ابتدایی\Code\obj\x86\Release\Student.AboutBox.resources
+D:\Programing\c#\Mine\school management\school management 6.2 با ابتدایی\Code\obj\x86\Release\Student.frm_behaviourscore.resources
+D:\Programing\c#\Mine\school management\school management 6.2 با ابتدایی\Code\obj\x86\Release\Student.frm_arm.resources
+D:\Programing\c#\Mine\school management\school management 6.2 با ابتدایی\Code\obj\x86\Release\Student.frm_class_salane.resources
+D:\Programing\c#\Mine\school management\school management 6.2 با ابتدایی\Code\obj\x86\Release\Student.frm_ravand_salane.resources
+D:\Programing\c#\Mine\school management\school management 6.2 با ابتدایی\Code\obj\x86\Release\Student.frm_faravani.resources
+D:\Programing\c#\Mine\school management\school management 6.2 با ابتدایی\Code\obj\x86\Release\Student.frm_sort_dialog.resources
+D:\Programing\c#\Mine\school management\school management 6.2 با ابتدایی\Code\obj\x86\Release\Student.print_list_number_2.resources
+D:\Programing\c#\Mine\school management\school management 6.2 با ابتدایی\Code\obj\x86\Release\Student.print_list_number.resources
+D:\Programing\c#\Mine\school management\school management 6.2 با ابتدایی\Code\obj\x86\Release\Student.frm_print_hamahang.resources
+D:\Programing\c#\Mine\school management\school management 6.2 با ابتدایی\Code\obj\x86\Release\Student.frm_hamahang_test.resources
+D:\Programing\c#\Mine\school management\school management 6.2 با ابتدایی\Code\obj\x86\Release\Student.frm_hamahang.resources
+D:\Programing\c#\Mine\school management\school management 6.2 با ابتدایی\Code\obj\x86\Release\Student.print_lesson.resources
+D:\Programing\c#\Mine\school management\school management 6.2 با ابتدایی\Code\obj\x86\Release\Student.frm_datechange.resources
+D:\Programing\c#\Mine\school management\school management 6.2 با ابتدایی\Code\obj\x86\Release\Student.frm_exception.resources
+D:\Programing\c#\Mine\school management\school management 6.2 با ابتدایی\Code\obj\x86\Release\Student.frm_reporttofamily.resources
+D:\Programing\c#\Mine\school management\school management 6.2 با ابتدایی\Code\obj\x86\Release\Student.frm_nemodare_darsi.resources
+D:\Programing\c#\Mine\school management\school management 6.2 با ابتدایی\Code\obj\x86\Release\Student.frm_cost.resources
+D:\Programing\c#\Mine\school management\school management 6.2 با ابتدایی\Code\obj\x86\Release\Student.frm_db.resources
+D:\Programing\c#\Mine\school management\school management 6.2 با ابتدایی\Code\obj\x86\Release\Student.frm_report_hazyneha.resources
+D:\Programing\c#\Mine\school management\school management 6.2 با ابتدایی\Code\obj\x86\Release\Student.frm_report_cost_koli.resources
+D:\Programing\c#\Mine\school management\school management 6.2 با ابتدایی\Code\obj\x86\Release\Student.frm_selectclass_mali.resources
+D:\Programing\c#\Mine\school management\school management 6.2 با ابتدایی\Code\obj\x86\Release\Student.register.resources
+D:\Programing\c#\Mine\school management\school management 6.2 با ابتدایی\Code\obj\x86\Release\Student.frm_setpassword.resources
+D:\Programing\c#\Mine\school management\school management 6.2 با ابتدایی\Code\obj\x86\Release\Student.frm_restorebackup.resources
+D:\Programing\c#\Mine\school management\school management 6.2 با ابتدایی\Code\obj\x86\Release\Student.frm_getpassword.resources
+D:\Programing\c#\Mine\school management\school management 6.2 با ابتدایی\Code\obj\x86\Release\Student.frm_messageboxwithpass.resources
+D:\Programing\c#\Mine\school management\school management 6.2 با ابتدایی\Code\obj\x86\Release\Student.frm_workteacher.resources
+D:\Programing\c#\Mine\school management\school management 6.2 با ابتدایی\Code\obj\x86\Release\Student.Help.resources
+D:\Programing\c#\Mine\school management\school management 6.2 با ابتدایی\Code\obj\x86\Release\Student.frm_lesson.resources
+D:\Programing\c#\Mine\school management\school management 6.2 با ابتدایی\Code\obj\x86\Release\Student.frm_behaviour.resources
+D:\Programing\c#\Mine\school management\school management 6.2 با ابتدایی\Code\obj\x86\Release\Student.frm_class.resources
+D:\Programing\c#\Mine\school management\school management 6.2 با ابتدایی\Code\obj\x86\Release\Student.frm_classdialog.resources
+D:\Programing\c#\Mine\school management\school management 6.2 با ابتدایی\Code\obj\x86\Release\Student.frm_major.resources
+D:\Programing\c#\Mine\school management\school management 6.2 با ابتدایی\Code\obj\x86\Release\Student.frm_proces.resources
+D:\Programing\c#\Mine\school management\school management 6.2 با ابتدایی\Code\obj\x86\Release\Student.frm_schooltype.resources
+D:\Programing\c#\Mine\school management\school management 6.2 با ابتدایی\Code\obj\x86\Release\Student.frm_st_teacher.resources
+D:\Programing\c#\Mine\school management\school management 6.2 با ابتدایی\Code\obj\x86\Release\Student.frm_inputnumber.resources
+D:\Programing\c#\Mine\school management\school management 6.2 با ابتدایی\Code\obj\x86\Release\Student.frm_lessonteacher.resources
+D:\Programing\c#\Mine\school management\school management 6.2 با ابتدایی\Code\obj\x86\Release\Student.Frm_Main.resources
+D:\Programing\c#\Mine\school management\school management 6.2 با ابتدایی\Code\obj\x86\Release\Student.frm_prepaid.resources
+D:\Programing\c#\Mine\school management\school management 6.2 با ابتدایی\Code\obj\x86\Release\Student.frm_mini_dialog.resources
+D:\Programing\c#\Mine\school management\school management 6.2 با ابتدایی\Code\obj\x86\Release\Student.frm_preview.resources
+D:\Programing\c#\Mine\school management\school management 6.2 با ابتدایی\Code\obj\x86\Release\Student.Properties.Resources.resources
+D:\Programing\c#\Mine\school management\school management 6.2 با ابتدایی\Code\obj\x86\Release\Student.frm_test.resources
+D:\Programing\c#\Mine\school management\school management 6.2 با ابتدایی\Code\obj\x86\Release\Student.frm_student.resources
+D:\Programing\c#\Mine\school management\school management 6.2 با ابتدایی\Code\obj\x86\Release\Student.frm_choosest.resources
+D:\Programing\c#\Mine\school management\school management 6.2 با ابتدایی\Code\obj\x86\Release\Student.frm_teacher.resources
+D:\Programing\c#\Mine\school management\school management 6.2 با ابتدایی\Code\obj\x86\Release\Student.frmp_student.resources
+D:\Programing\c#\Mine\school management\school management 6.2 با ابتدایی\Code\obj\x86\Release\Student.frm_listnumber.resources
+D:\Programing\c#\Mine\school management\school management 6.2 با ابتدایی\Code\obj\x86\Release\Student.frm_selectclass.resources
+D:\Programing\c#\Mine\school management\school management 6.2 با ابتدایی\Code\obj\x86\Release\Student.Frm_Splash.resources
+D:\Programing\c#\Mine\school management\school management 6.2 با ابتدایی\Code\obj\x86\Release\Student.frm_aghsat.resources
+D:\Programing\c#\Mine\school management\school management 6.2 با ابتدایی\Code\obj\x86\Release\Student.frm_student_av_list.resources
+D:\Programing\c#\Mine\school management\school management 6.2 با ابتدایی\Code\obj\x86\Release\Code.csproj.GenerateResource.Cache
+D:\Programing\c#\Mine\school management\school management 6.2 با ابتدایی\Code\bin\x86\Release\Help\help.htm
+D:\Programing\c#\Mine\school management\school management 6.2 با ابتدایی\Code\bin\x86\Release\Help\help.jpg
+D:\Programing\c#\Mine\school management\school management 6.2 با ابتدایی\Code\bin\x86\Release\data.mdb
+D:\Programing\c#\Mine\school management\school management 6.2 با ابتدایی\Code\bin\x86\Release\school management.exe
+D:\Programing\c#\Mine\school management\school management 6.2 با ابتدایی\Code\bin\x86\Release\school management.pdb
+D:\Programing\c#\Mine\school management\school management 6.2 با ابتدایی\Code\bin\x86\Release\Interop.ADOX.dll
+D:\Programing\c#\Mine\school management\school management 6.4\Code\bin\x86\Release\school management.exe.config
+D:\Programing\c#\Mine\school management\school management 6.4\Code\obj\x86\Release\Interop.ADOX.dll
+D:\Programing\c#\Mine\school management\school management 6.4\Code\obj\x86\Release\Code.csproj.ResolveComReference.cache
+D:\Programing\c#\Mine\school management\school management 6.4\Code\obj\x86\Release\school management.exe
+D:\Programing\c#\Mine\school management\school management 6.4\Code\obj\x86\Release\school management.pdb
+D:\Programing\c#\Mine\school management\school management 6.4\Code\obj\x86\Release\Code.csprojResolveAssemblyReference.cache
+D:\Programing\c#\Mine\school management\school management 6.4\Code\obj\x86\Release\Student.AboutBox.resources
+D:\Programing\c#\Mine\school management\school management 6.4\Code\obj\x86\Release\Student.frm_behaviourscore.resources
+D:\Programing\c#\Mine\school management\school management 6.4\Code\obj\x86\Release\Student.frm_arm.resources
+D:\Programing\c#\Mine\school management\school management 6.4\Code\obj\x86\Release\Student.frm_class_salane.resources
+D:\Programing\c#\Mine\school management\school management 6.4\Code\obj\x86\Release\Student.frm_ravand_salane.resources
+D:\Programing\c#\Mine\school management\school management 6.4\Code\obj\x86\Release\Student.frm_faravani.resources
+D:\Programing\c#\Mine\school management\school management 6.4\Code\obj\x86\Release\Student.frm_sort_dialog.resources
+D:\Programing\c#\Mine\school management\school management 6.4\Code\obj\x86\Release\Student.print_list_number_2.resources
+D:\Programing\c#\Mine\school management\school management 6.4\Code\obj\x86\Release\Student.print_list_number.resources
+D:\Programing\c#\Mine\school management\school management 6.4\Code\obj\x86\Release\Student.frm_print_hamahang.resources
+D:\Programing\c#\Mine\school management\school management 6.4\Code\obj\x86\Release\Student.frm_hamahang_test.resources
+D:\Programing\c#\Mine\school management\school management 6.4\Code\obj\x86\Release\Student.frm_hamahang.resources
+D:\Programing\c#\Mine\school management\school management 6.4\Code\obj\x86\Release\Student.print_lesson.resources
+D:\Programing\c#\Mine\school management\school management 6.4\Code\obj\x86\Release\Student.frm_datechange.resources
+D:\Programing\c#\Mine\school management\school management 6.4\Code\obj\x86\Release\Student.frm_exception.resources
+D:\Programing\c#\Mine\school management\school management 6.4\Code\obj\x86\Release\Student.frm_reporttofamily.resources
+D:\Programing\c#\Mine\school management\school management 6.4\Code\obj\x86\Release\Student.frm_nemodare_darsi.resources
+D:\Programing\c#\Mine\school management\school management 6.4\Code\obj\x86\Release\Student.frm_cost.resources
+D:\Programing\c#\Mine\school management\school management 6.4\Code\obj\x86\Release\Student.frm_db.resources
+D:\Programing\c#\Mine\school management\school management 6.4\Code\obj\x86\Release\Student.frm_report_hazyneha.resources
+D:\Programing\c#\Mine\school management\school management 6.4\Code\obj\x86\Release\Student.frm_report_cost_koli.resources
+D:\Programing\c#\Mine\school management\school management 6.4\Code\obj\x86\Release\Student.frm_selectclass_mali.resources
+D:\Programing\c#\Mine\school management\school management 6.4\Code\obj\x86\Release\Student.register.resources
+D:\Programing\c#\Mine\school management\school management 6.4\Code\obj\x86\Release\Student.frm_setpassword.resources
+D:\Programing\c#\Mine\school management\school management 6.4\Code\obj\x86\Release\Student.frm_restorebackup.resources
+D:\Programing\c#\Mine\school management\school management 6.4\Code\obj\x86\Release\Student.frm_getpassword.resources
+D:\Programing\c#\Mine\school management\school management 6.4\Code\obj\x86\Release\Student.frm_messageboxwithpass.resources
+D:\Programing\c#\Mine\school management\school management 6.4\Code\obj\x86\Release\Student.frm_workteacher.resources
+D:\Programing\c#\Mine\school management\school management 6.4\Code\obj\x86\Release\Student.Help.resources
+D:\Programing\c#\Mine\school management\school management 6.4\Code\obj\x86\Release\Student.frm_lesson.resources
+D:\Programing\c#\Mine\school management\school management 6.4\Code\obj\x86\Release\Student.frm_behaviour.resources
+D:\Programing\c#\Mine\school management\school management 6.4\Code\obj\x86\Release\Student.frm_class.resources
+D:\Programing\c#\Mine\school management\school management 6.4\Code\obj\x86\Release\Student.frm_classdialog.resources
+D:\Programing\c#\Mine\school management\school management 6.4\Code\obj\x86\Release\Student.frm_major.resources
+D:\Programing\c#\Mine\school management\school management 6.4\Code\obj\x86\Release\Student.frm_proces.resources
+D:\Programing\c#\Mine\school management\school management 6.4\Code\obj\x86\Release\Student.frm_schooltype.resources
+D:\Programing\c#\Mine\school management\school management 6.4\Code\obj\x86\Release\Student.frm_st_teacher.resources
+D:\Programing\c#\Mine\school management\school management 6.4\Code\obj\x86\Release\Student.frm_inputnumber.resources
+D:\Programing\c#\Mine\school management\school management 6.4\Code\obj\x86\Release\Student.frm_lessonteacher.resources
+D:\Programing\c#\Mine\school management\school management 6.4\Code\obj\x86\Release\Student.Frm_Main.resources
+D:\Programing\c#\Mine\school management\school management 6.4\Code\obj\x86\Release\Student.frm_prepaid.resources
+D:\Programing\c#\Mine\school management\school management 6.4\Code\obj\x86\Release\Student.frm_mini_dialog.resources
+D:\Programing\c#\Mine\school management\school management 6.4\Code\obj\x86\Release\Student.frm_preview.resources
+D:\Programing\c#\Mine\school management\school management 6.4\Code\obj\x86\Release\Student.Properties.Resources.resources
+D:\Programing\c#\Mine\school management\school management 6.4\Code\obj\x86\Release\Student.frm_test.resources
+D:\Programing\c#\Mine\school management\school management 6.4\Code\obj\x86\Release\Student.frm_student.resources
+D:\Programing\c#\Mine\school management\school management 6.4\Code\obj\x86\Release\Student.frm_choosest.resources
+D:\Programing\c#\Mine\school management\school management 6.4\Code\obj\x86\Release\Student.frm_teacher.resources
+D:\Programing\c#\Mine\school management\school management 6.4\Code\obj\x86\Release\Student.frmp_student.resources
+D:\Programing\c#\Mine\school management\school management 6.4\Code\obj\x86\Release\Student.frm_listnumber.resources
+D:\Programing\c#\Mine\school management\school management 6.4\Code\obj\x86\Release\Student.frm_selectclass.resources
+D:\Programing\c#\Mine\school management\school management 6.4\Code\obj\x86\Release\Student.Frm_Splash.resources
+D:\Programing\c#\Mine\school management\school management 6.4\Code\obj\x86\Release\Student.frm_aghsat.resources
+D:\Programing\c#\Mine\school management\school management 6.4\Code\obj\x86\Release\Student.frm_student_av_list.resources
+D:\Programing\c#\Mine\school management\school management 6.4\Code\obj\x86\Release\Code.csproj.GenerateResource.Cache
+D:\Programing\c#\Mine\school management\school management 6.4\Code\bin\x86\Release\Help\help.htm
+D:\Programing\c#\Mine\school management\school management 6.4\Code\bin\x86\Release\Help\help.jpg
+D:\Programing\c#\Mine\school management\school management 6.4\Code\bin\x86\Release\data.mdb
+D:\Programing\c#\Mine\school management\school management 6.4\Code\bin\x86\Release\school management.exe
+D:\Programing\c#\Mine\school management\school management 6.4\Code\bin\x86\Release\school management.pdb
+D:\Programing\c#\Mine\school management\school management 6.4\Code\bin\x86\Release\Interop.ADOX.dll

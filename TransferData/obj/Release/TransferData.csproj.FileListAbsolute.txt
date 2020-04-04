@@ -1,0 +1,33 @@
+C:\Users\Exploit\Desktop\school management\school management\TransferData\bin\Release\Internet SM.exe.config
+C:\Users\Exploit\Desktop\school management\school management\TransferData\bin\Release\Internet SM.exe
+C:\Users\Exploit\Desktop\school management\school management\TransferData\bin\Release\Internet SM.pdb
+C:\Users\Exploit\Desktop\school management\school management\TransferData\obj\Release\TransferData.csprojResolveAssemblyReference.cache
+C:\Users\Exploit\Desktop\school management\school management\TransferData\obj\Release\Internet_SM.report.resources
+C:\Users\Exploit\Desktop\school management\school management\TransferData\obj\Release\Internet_SM.frm_main.resources
+C:\Users\Exploit\Desktop\school management\school management\TransferData\obj\Release\Internet_SM.Form_selectclass.resources
+C:\Users\Exploit\Desktop\school management\school management\TransferData\obj\Release\Internet_SM.Properties.Resources.resources
+C:\Users\Exploit\Desktop\school management\school management\TransferData\obj\Release\TransferData.csproj.GenerateResource.Cache
+C:\Users\Exploit\Desktop\school management\school management\TransferData\obj\Release\Internet SM.exe
+C:\Users\Exploit\Desktop\school management\school management\TransferData\obj\Release\Internet SM.pdb
+C:\Users\exploiter\Desktop\school management\school management\TransferData\bin\Release\Internet SM.exe.config
+C:\Users\exploiter\Desktop\school management\school management\TransferData\bin\Release\Internet SM.exe
+C:\Users\exploiter\Desktop\school management\school management\TransferData\bin\Release\Internet SM.pdb
+C:\Users\exploiter\Desktop\school management\school management\TransferData\obj\Release\TransferData.csprojResolveAssemblyReference.cache
+C:\Users\exploiter\Desktop\school management\school management\TransferData\obj\Release\Internet_SM.report.resources
+C:\Users\exploiter\Desktop\school management\school management\TransferData\obj\Release\Internet_SM.frm_main.resources
+C:\Users\exploiter\Desktop\school management\school management\TransferData\obj\Release\Internet_SM.Form_selectclass.resources
+C:\Users\exploiter\Desktop\school management\school management\TransferData\obj\Release\Internet_SM.Properties.Resources.resources
+C:\Users\exploiter\Desktop\school management\school management\TransferData\obj\Release\TransferData.csproj.GenerateResource.Cache
+C:\Users\exploiter\Desktop\school management\school management\TransferData\obj\Release\Internet SM.exe
+C:\Users\exploiter\Desktop\school management\school management\TransferData\obj\Release\Internet SM.pdb
+E:\school management\school management\TransferData\bin\Release\Internet SM.exe.config
+E:\school management\school management\TransferData\bin\Release\Internet SM.exe
+E:\school management\school management\TransferData\bin\Release\Internet SM.pdb
+E:\school management\school management\TransferData\obj\Release\TransferData.csprojResolveAssemblyReference.cache
+E:\school management\school management\TransferData\obj\Release\Internet_SM.report.resources
+E:\school management\school management\TransferData\obj\Release\Internet_SM.frm_main.resources
+E:\school management\school management\TransferData\obj\Release\Internet_SM.Form_selectclass.resources
+E:\school management\school management\TransferData\obj\Release\Internet_SM.Properties.Resources.resources
+E:\school management\school management\TransferData\obj\Release\TransferData.csproj.GenerateResource.Cache
+E:\school management\school management\TransferData\obj\Release\Internet SM.exe
+E:\school management\school management\TransferData\obj\Release\Internet SM.pdb

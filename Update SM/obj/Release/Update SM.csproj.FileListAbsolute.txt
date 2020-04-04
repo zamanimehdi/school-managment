@@ -1,0 +1,49 @@
+D:\WORK\SM PRJ - work\school management\Update SM\bin\Release\Update SM.exe
+D:\WORK\SM PRJ - work\school management\Update SM\bin\Release\Update SM.pdb
+D:\WORK\SM PRJ - work\school management\Update SM\obj\Release\ResolveAssemblyReference.cache
+D:\WORK\SM PRJ - work\school management\Update SM\obj\Release\Update_SM.Form1.resources
+D:\WORK\SM PRJ - work\school management\Update SM\obj\Release\Update_SM.Properties.Resources.resources
+D:\WORK\SM PRJ - work\school management\Update SM\obj\Release\Update SM.csproj.GenerateResource.Cache
+D:\WORK\SM PRJ - work\school management\Update SM\obj\Release\Update SM.exe
+D:\WORK\SM PRJ - work\school management\Update SM\obj\Release\Update SM.pdb
+D:\WORK\SM PRJ - work - Last on 2008\school management\Update SM\bin\Release\Update SM.exe
+D:\WORK\SM PRJ - work - Last on 2008\school management\Update SM\bin\Release\Update SM.pdb
+D:\WORK\SM PRJ - work - Last on 2008\school management\Update SM\obj\Release\ResolveAssemblyReference.cache
+D:\WORK\SM PRJ - work - Last on 2008\school management\Update SM\obj\Release\Update_SM.Form1.resources
+D:\WORK\SM PRJ - work - Last on 2008\school management\Update SM\obj\Release\Update_SM.Properties.Resources.resources
+D:\WORK\SM PRJ - work - Last on 2008\school management\Update SM\obj\Release\Update SM.exe
+D:\WORK\SM PRJ - work - Last on 2008\school management\Update SM\obj\Release\Update SM.pdb
+D:\WORK\SM PRJ - work - Last on 2008\school management\Update SM\obj\Release\GenerateResource-ResGen.read.1.tlog
+D:\WORK\SM PRJ - work - Last on 2008\school management\Update SM\obj\Release\GenerateResource-ResGen.write.1.tlog
+D:\Programing\Work Out\c#\Mine\school management\school management\Update SM\bin\Release\Update SM.exe
+D:\Programing\Work Out\c#\Mine\school management\school management\Update SM\bin\Release\Update SM.pdb
+D:\Programing\Work Out\c#\Mine\school management\school management\Update SM\obj\Release\ResolveAssemblyReference.cache
+D:\Programing\Work Out\c#\Mine\school management\school management\Update SM\obj\Release\Update_SM.Form1.resources
+D:\Programing\Work Out\c#\Mine\school management\school management\Update SM\obj\Release\Update_SM.Properties.Resources.resources
+D:\Programing\Work Out\c#\Mine\school management\school management\Update SM\obj\Release\GenerateResource-ResGen.read.1.tlog
+D:\Programing\Work Out\c#\Mine\school management\school management\Update SM\obj\Release\GenerateResource-ResGen.write.1.tlog
+D:\Programing\Work Out\c#\Mine\school management\school management\Update SM\obj\Release\Update SM.exe
+D:\Programing\Work Out\c#\Mine\school management\school management\Update SM\obj\Release\Update SM.pdb
+C:\Users\Exploit\Desktop\school management\school management\Update SM\obj\Release\Update SM.exe
+C:\Users\Exploit\Desktop\school management\school management\Update SM\obj\Release\Update SM.pdb
+C:\Users\Exploit\Desktop\school management\school management\Update SM\bin\Release\Update SM.exe
+C:\Users\Exploit\Desktop\school management\school management\Update SM\bin\Release\Update SM.pdb
+C:\Users\Exploit\Desktop\school management\school management\Update SM\obj\Release\Update_SM.Form1.resources
+C:\Users\Exploit\Desktop\school management\school management\Update SM\obj\Release\Update_SM.Properties.Resources.resources
+C:\Users\Exploit\Desktop\school management\school management\Update SM\obj\Release\Update SM.csproj.GenerateResource.Cache
+C:\Users\exploiter\Desktop\school management\school management\Update SM\bin\Release\Update SM.exe
+C:\Users\exploiter\Desktop\school management\school management\Update SM\bin\Release\Update SM.pdb
+C:\Users\exploiter\Desktop\school management\school management\Update SM\obj\Release\Update SM.csprojResolveAssemblyReference.cache
+C:\Users\exploiter\Desktop\school management\school management\Update SM\obj\Release\Update_SM.Form1.resources
+C:\Users\exploiter\Desktop\school management\school management\Update SM\obj\Release\Update_SM.Properties.Resources.resources
+C:\Users\exploiter\Desktop\school management\school management\Update SM\obj\Release\Update SM.csproj.GenerateResource.Cache
+C:\Users\exploiter\Desktop\school management\school management\Update SM\obj\Release\Update SM.exe
+C:\Users\exploiter\Desktop\school management\school management\Update SM\obj\Release\Update SM.pdb
+E:\school management\school management\Update SM\bin\Release\Update SM.exe
+E:\school management\school management\Update SM\bin\Release\Update SM.pdb
+E:\school management\school management\Update SM\obj\Release\Update SM.csprojResolveAssemblyReference.cache
+E:\school management\school management\Update SM\obj\Release\Update_SM.Form1.resources
+E:\school management\school management\Update SM\obj\Release\Update_SM.Properties.Resources.resources
+E:\school management\school management\Update SM\obj\Release\Update SM.csproj.GenerateResource.Cache
+E:\school management\school management\Update SM\obj\Release\Update SM.exe
+E:\school management\school management\Update SM\obj\Release\Update SM.pdb

@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="ds_cost_koli" targetNamespace="http://tempuri.org/ds_cost_koli.xsd" xmlns:mstns="http://tempuri.org/ds_cost_koli.xsd" xmlns="http://tempuri.org/ds_cost_koli.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="DataConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="DataConnectionString (Settings)" PropertyReference="ApplicationSettings.Student.Properties.Settings.GlobalReference.Default.DataConnectionString" Provider="System.Data.OleDb" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="kol_mablaghTableAdapter" GeneratorDataComponentClassName="kol_mablaghTableAdapter" Name="kol_mablagh" UserDataComponentName="kol_mablaghTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="DataConnectionString (Settings)" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT     SUM(prepaid.lessen) AS Expr1
+FROM         (prepaid INNER JOIN
+                      student ON prepaid.idstudent = student.idstudent)</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="Expr1" DataSetColumn="Expr1" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="kol_pardakhtiTableAdapter" GeneratorDataComponentClassName="kol_pardakhtiTableAdapter" Name="kol_pardakhti" UserDataComponentName="kol_pardakhtiTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="DataConnectionString (Settings)" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT     SUM(cost) AS Expr1
+FROM         remainder</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="Expr1" DataSetColumn="Expr1" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="hazimeTableAdapter" GeneratorDataComponentClassName="hazimeTableAdapter" Name="hazime" UserDataComponentName="hazimeTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="DataConnectionString (Settings)" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT     SUM(costval) AS Expr1
+FROM         costlist</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="Expr1" DataSetColumn="Expr1" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="ds_cost_koli" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="ds_cost_koli" msprop:Generator_DataSetName="ds_cost_koli" msprop:EnableTableAdapterManager="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="kol_mablagh" msprop:Generator_UserTableName="kol_mablagh" msprop:Generator_RowDeletedName="kol_mablaghRowDeleted" msprop:Generator_RowChangedName="kol_mablaghRowChanged" msprop:Generator_RowClassName="kol_mablaghRow" msprop:Generator_RowChangingName="kol_mablaghRowChanging" msprop:Generator_RowEvArgName="kol_mablaghRowChangeEvent" msprop:Generator_RowEvHandlerName="kol_mablaghRowChangeEventHandler" msprop:Generator_TableClassName="kol_mablaghDataTable" msprop:Generator_TableVarName="tablekol_mablagh" msprop:Generator_RowDeletingName="kol_mablaghRowDeleting" msprop:Generator_TablePropName="kol_mablagh">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Expr1" msprop:Generator_UserColumnName="Expr1" msprop:Generator_ColumnPropNameInRow="Expr1" msprop:Generator_ColumnVarNameInTable="columnExpr1" msprop:Generator_ColumnPropNameInTable="Expr1Column" type="xs:double" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="kol_pardakhti" msprop:Generator_UserTableName="kol_pardakhti" msprop:Generator_RowDeletedName="kol_pardakhtiRowDeleted" msprop:Generator_RowChangedName="kol_pardakhtiRowChanged" msprop:Generator_RowClassName="kol_pardakhtiRow" msprop:Generator_RowChangingName="kol_pardakhtiRowChanging" msprop:Generator_RowEvArgName="kol_pardakhtiRowChangeEvent" msprop:Generator_RowEvHandlerName="kol_pardakhtiRowChangeEventHandler" msprop:Generator_TableClassName="kol_pardakhtiDataTable" msprop:Generator_TableVarName="tablekol_pardakhti" msprop:Generator_RowDeletingName="kol_pardakhtiRowDeleting" msprop:Generator_TablePropName="kol_pardakhti">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Expr1" msprop:Generator_UserColumnName="Expr1" msprop:Generator_ColumnVarNameInTable="columnExpr1" msprop:Generator_ColumnPropNameInRow="Expr1" msprop:Generator_ColumnPropNameInTable="Expr1Column" type="xs:double" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="hazime" msprop:Generator_UserTableName="hazime" msprop:Generator_RowDeletedName="hazimeRowDeleted" msprop:Generator_RowChangedName="hazimeRowChanged" msprop:Generator_RowClassName="hazimeRow" msprop:Generator_RowChangingName="hazimeRowChanging" msprop:Generator_RowEvArgName="hazimeRowChangeEvent" msprop:Generator_RowEvHandlerName="hazimeRowChangeEventHandler" msprop:Generator_TableClassName="hazimeDataTable" msprop:Generator_TableVarName="tablehazime" msprop:Generator_RowDeletingName="hazimeRowDeleting" msprop:Generator_TablePropName="hazime">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Expr1" msprop:Generator_UserColumnName="Expr1" msprop:Generator_ColumnVarNameInTable="columnExpr1" msprop:Generator_ColumnPropNameInRow="Expr1" msprop:Generator_ColumnPropNameInTable="Expr1Column" type="xs:double" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

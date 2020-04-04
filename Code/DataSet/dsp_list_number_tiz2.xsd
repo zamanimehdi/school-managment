@@ -1,0 +1,364 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsp_list_number2" targetNamespace="http://tempuri.org/dsp_list_number2.xsd" xmlns:mstns="http://tempuri.org/dsp_list_number2.xsd" xmlns="http://tempuri.org/dsp_list_number2.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="DataConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="DataConnectionString (Settings)" PropertyReference="ApplicationSettings.Student.Properties.Settings.GlobalReference.Default.DataConnectionString" Provider="System.Data.OleDb" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="tb_list_number2TableAdapter" GeneratorDataComponentClassName="tb_list_number2TableAdapter" Name="tb_list_number2" UserDataComponentName="tb_list_number2TableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="DataConnectionString (Settings)" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Fill" GenerateShortCommands="false" GeneratorSourceName="Fill" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT        test.idtest, lesson.name AS lessonname, test.idlesson, test.idclass, derivedtbl_1.score, derivedtbl_2.score AS Expr1, derivedtbl_3.score AS Expr2, 
+                         derivedtbl_4.score AS Expr3, derivedtbl_5.score AS Expr4, derivedtbl_6.score AS Expr5, derivedtbl_7.score AS Expr6, derivedtbl_8.score AS Expr7, 
+                         derivedtbl_9.score AS Expr8, derivedtbl_10.score AS Expr9, test.[date]
+FROM            (((((((((((test INNER JOIN
+                         lesson ON test.idlesson = lesson.idlesson) LEFT OUTER JOIN
+                             (SELECT        test_5.idtest, score_4.score
+                               FROM            (score score_4 LEFT OUTER JOIN
+                                                         test test_5 ON score_4.idtest = test_5.idtest)
+                               WHERE        (score_4.idstudent = ?)
+                               GROUP BY test_5.idtest, score_4.score) derivedtbl_5 ON test.idtest = derivedtbl_5.idtest) LEFT OUTER JOIN
+                             (SELECT        test_8.idtest, score_7.score
+                               FROM            (score score_7 LEFT OUTER JOIN
+                                                         test test_8 ON score_7.idtest = test_8.idtest)
+                               WHERE        (score_7.idstudent = ?)
+                               GROUP BY test_8.idtest, score_7.score) derivedtbl_8 ON test.idtest = derivedtbl_8.idtest) LEFT OUTER JOIN
+                             (SELECT        test_10.idtest, score_9.score
+                               FROM            (score score_9 LEFT OUTER JOIN
+                                                         test test_10 ON score_9.idtest = test_10.idtest)
+                               WHERE        (score_9.idstudent = ?)
+                               GROUP BY test_10.idtest, score_9.score) derivedtbl_10 ON test.idtest = derivedtbl_10.idtest) LEFT OUTER JOIN
+                             (SELECT        test_9.idtest, score_8.score
+                               FROM            (score score_8 LEFT OUTER JOIN
+                                                         test test_9 ON score_8.idtest = test_9.idtest)
+                               WHERE        (score_8.idstudent = ?)
+                               GROUP BY test_9.idtest, score_8.score) derivedtbl_9 ON test.idtest = derivedtbl_9.idtest) LEFT OUTER JOIN
+                             (SELECT        test_7.idtest, score_6.score
+                               FROM            (score score_6 LEFT OUTER JOIN
+                                                         test test_7 ON score_6.idtest = test_7.idtest)
+                               WHERE        (score_6.idstudent = ?)
+                               GROUP BY test_7.idtest, score_6.score) derivedtbl_7 ON test.idtest = derivedtbl_7.idtest) LEFT OUTER JOIN
+                             (SELECT        test_6.idtest, score_5.score
+                               FROM            (score score_5 LEFT OUTER JOIN
+                                                         test test_6 ON score_5.idtest = test_6.idtest)
+                               WHERE        (score_5.idstudent = ?)
+                               GROUP BY test_6.idtest, score_5.score) derivedtbl_6 ON test.idtest = derivedtbl_6.idtest) LEFT OUTER JOIN
+                             (SELECT        test_4.idtest, score_3.score
+                               FROM            (score score_3 LEFT OUTER JOIN
+                                                         test test_4 ON score_3.idtest = test_4.idtest)
+                               WHERE        (score_3.idstudent = ?)
+                               GROUP BY test_4.idtest, score_3.score) derivedtbl_4 ON test.idtest = derivedtbl_4.idtest) LEFT OUTER JOIN
+                             (SELECT        test_3.idtest, score_2.score
+                               FROM            (score score_2 LEFT OUTER JOIN
+                                                         test test_3 ON score_2.idtest = test_3.idtest)
+                               WHERE        (score_2.idstudent = ?)
+                               GROUP BY test_3.idtest, score_2.score) derivedtbl_3 ON test.idtest = derivedtbl_3.idtest) LEFT OUTER JOIN
+                             (SELECT        test_2.idtest, score_1.score
+                               FROM            (score score_1 LEFT OUTER JOIN
+                                                         test test_2 ON score_1.idtest = test_2.idtest)
+                               WHERE        (score_1.idstudent = ?)
+                               GROUP BY test_2.idtest, score_1.score) derivedtbl_2 ON test.idtest = derivedtbl_2.idtest) LEFT OUTER JOIN
+                             (SELECT        test_1.idtest, score.score
+                               FROM            (score LEFT OUTER JOIN
+                                                         test test_1 ON score.idtest = test_1.idtest)
+                               WHERE        (score.idstudent = ?)
+                               GROUP BY test_1.idtest, score.score) derivedtbl_1 ON test.idtest = derivedtbl_1.idtest)
+WHERE        (test.[date] &gt;= ?) AND (test.[date] &lt;= ?)</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="true" AutogeneratedName="Param1" ColumnName="date" DataSourceName="test" DataTypeServer="DbType.StringFixedLength(6)" DbType="String" Direction="Input" ParameterName="date" Precision="0" ProviderType="WChar" Scale="0" Size="6" SourceColumn="date" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="Param2" ColumnName="date" DataSourceName="test" DataTypeServer="DbType.StringFixedLength(6)" DbType="String" Direction="Input" ParameterName="date1" Precision="0" ProviderType="WChar" Scale="0" Size="6" SourceColumn="date" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="Param3" ColumnName="" DataSourceName="" DataTypeServer="DbType.Double" DbType="Decimal" Direction="Input" ParameterName="Param3" Precision="15" Scale="0" Size="0" SourceColumn="" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="Param4" ColumnName="" DataSourceName="" DataTypeServer="DbType.Double" DbType="Decimal" Direction="Input" ParameterName="Param4" Precision="15" Scale="0" Size="0" SourceColumn="" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="Param5" ColumnName="" DataSourceName="" DataTypeServer="DbType.Double" DbType="Decimal" Direction="Input" ParameterName="Param5" Precision="15" Scale="0" Size="0" SourceColumn="" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="Param6" ColumnName="" DataSourceName="" DataTypeServer="DbType.Double" DbType="Decimal" Direction="Input" ParameterName="Param6" Precision="15" Scale="0" Size="0" SourceColumn="" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="Param7" ColumnName="" DataSourceName="" DataTypeServer="DbType.Double" DbType="Decimal" Direction="Input" ParameterName="Param7" Precision="15" Scale="0" Size="0" SourceColumn="" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="Param8" ColumnName="" DataSourceName="" DataTypeServer="DbType.Double" DbType="Decimal" Direction="Input" ParameterName="Param8" Precision="15" Scale="0" Size="0" SourceColumn="" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="Param9" ColumnName="" DataSourceName="" DataTypeServer="DbType.Double" DbType="Decimal" Direction="Input" ParameterName="Param9" Precision="15" Scale="0" Size="0" SourceColumn="" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="Param10" ColumnName="" DataSourceName="" DataTypeServer="DbType.Double" DbType="Decimal" Direction="Input" ParameterName="Param10" Precision="15" Scale="0" Size="0" SourceColumn="" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="Param11" ColumnName="" DataSourceName="" DataTypeServer="DbType.Double" DbType="Decimal" Direction="Input" ParameterName="Param11" Precision="15" Scale="0" Size="0" SourceColumn="" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="Param12" ColumnName="" DataSourceName="" DataTypeServer="DbType.Double" DbType="Decimal" Direction="Input" ParameterName="Param12" Precision="15" Scale="0" Size="0" SourceColumn="" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="score" DataSetColumn="score" />
+              <Mapping SourceColumn="idlesson" DataSetColumn="idlesson" />
+              <Mapping SourceColumn="date" DataSetColumn="date" />
+              <Mapping SourceColumn="idclass" DataSetColumn="idclass" />
+              <Mapping SourceColumn="Expr1" DataSetColumn="Expr1" />
+              <Mapping SourceColumn="Expr2" DataSetColumn="Expr2" />
+              <Mapping SourceColumn="Expr3" DataSetColumn="Expr3" />
+              <Mapping SourceColumn="Expr4" DataSetColumn="Expr4" />
+              <Mapping SourceColumn="Expr5" DataSetColumn="Expr5" />
+              <Mapping SourceColumn="Expr6" DataSetColumn="Expr6" />
+              <Mapping SourceColumn="Expr7" DataSetColumn="Expr7" />
+              <Mapping SourceColumn="Expr8" DataSetColumn="Expr8" />
+              <Mapping SourceColumn="Expr9" DataSetColumn="Expr9" />
+              <Mapping SourceColumn="idtest" DataSetColumn="idtest" />
+              <Mapping SourceColumn="lessonname" DataSetColumn="lessonname" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="studentTableAdapter" GeneratorDataComponentClassName="studentTableAdapter" Name="student" UserDataComponentName="studentTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="DataConnectionString (Settings)" DbObjectName="student" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Fill" GenerateShortCommands="false" GeneratorSourceName="Fill" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <DeleteCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>DELETE FROM `student` WHERE ((`idstudent` = ?) AND ((? = 1 AND `idclass` IS NULL) OR (`idclass` = ?)))</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="Original_idstudent" Precision="0" ProviderType="Double" Scale="0" Size="0" SourceColumn="idstudent" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_idclass" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="idclass" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="Original_idclass" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="idclass" SourceColumnNullMapping="false" SourceVersion="Original" />
+                    </Parameters>
+                  </DbCommand>
+                </DeleteCommand>
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT        name + ' ' + lname AS stu_name, idstudent, idclass
+FROM            student
+ORDER BY lname</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+                <UpdateCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>UPDATE `student` SET `idstudent` = ?, `idclass` = ? WHERE ((`idstudent` = ?) AND ((? = 1 AND `idclass` IS NULL) OR (`idclass` = ?)))</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="idstudent" Precision="0" ProviderType="Double" Scale="0" Size="0" SourceColumn="idstudent" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="idclass" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="idclass" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="Original_idstudent" Precision="0" ProviderType="Double" Scale="0" Size="0" SourceColumn="idstudent" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_idclass" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="idclass" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="Original_idclass" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="idclass" SourceColumnNullMapping="false" SourceVersion="Original" />
+                    </Parameters>
+                  </DbCommand>
+                </UpdateCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="idstudent" DataSetColumn="idstudent" />
+              <Mapping SourceColumn="idclass" DataSetColumn="idclass" />
+              <Mapping SourceColumn="stu_name" DataSetColumn="stu_name" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="classTableAdapter" GeneratorDataComponentClassName="classTableAdapter" Name="class" UserDataComponentName="classTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="DataConnectionString (Settings)" DbObjectName="class" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Fill" GenerateShortCommands="false" GeneratorSourceName="Fill" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <DeleteCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>DELETE FROM `class` WHERE ((`idclass` = ?) AND ((? = 1 AND `name` IS NULL) OR (`name` = ?)) AND ((? = 1 AND `grade` IS NULL) OR (`grade` = ?)) AND ((? = 1 AND `idmajor` IS NULL) OR (`idmajor` = ?)))</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="Original_idclass" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="idclass" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_name" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="name" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Original_name" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="name" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_grade" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="grade" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Byte" Direction="Input" ParameterName="Original_grade" Precision="0" ProviderType="UnsignedTinyInt" Scale="0" Size="0" SourceColumn="grade" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_idmajor" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="idmajor" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="Original_idmajor" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="idmajor" SourceColumnNullMapping="false" SourceVersion="Original" />
+                    </Parameters>
+                  </DbCommand>
+                </DeleteCommand>
+                <InsertCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>INSERT INTO `class` (`name`, `grade`, `idmajor`) VALUES (?, ?, ?)</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="name" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="name" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Byte" Direction="Input" ParameterName="grade" Precision="0" ProviderType="UnsignedTinyInt" Scale="0" Size="0" SourceColumn="grade" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="idmajor" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="idmajor" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </InsertCommand>
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT        idclass, name, grade, idmajor
+FROM            class</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+                <UpdateCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>UPDATE `class` SET `name` = ?, `grade` = ?, `idmajor` = ? WHERE ((`idclass` = ?) AND ((? = 1 AND `name` IS NULL) OR (`name` = ?)) AND ((? = 1 AND `grade` IS NULL) OR (`grade` = ?)) AND ((? = 1 AND `idmajor` IS NULL) OR (`idmajor` = ?)))</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="name" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="name" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Byte" Direction="Input" ParameterName="grade" Precision="0" ProviderType="UnsignedTinyInt" Scale="0" Size="0" SourceColumn="grade" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="idmajor" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="idmajor" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="Original_idclass" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="idclass" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_name" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="name" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Original_name" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="name" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_grade" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="grade" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Byte" Direction="Input" ParameterName="Original_grade" Precision="0" ProviderType="UnsignedTinyInt" Scale="0" Size="0" SourceColumn="grade" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_idmajor" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="idmajor" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="Original_idmajor" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="idmajor" SourceColumnNullMapping="false" SourceVersion="Original" />
+                    </Parameters>
+                  </DbCommand>
+                </UpdateCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="idclass" DataSetColumn="idclass" />
+              <Mapping SourceColumn="name" DataSetColumn="name" />
+              <Mapping SourceColumn="grade" DataSetColumn="grade" />
+              <Mapping SourceColumn="idmajor" DataSetColumn="idmajor" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="lessonTableAdapter" GeneratorDataComponentClassName="lessonTableAdapter" Name="lesson" UserDataComponentName="lessonTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="DataConnectionString (Settings)" DbObjectName="lesson" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Fill" GenerateShortCommands="false" GeneratorSourceName="Fill" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <DeleteCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>DELETE FROM `lesson` WHERE (((? = 1 AND `name` IS NULL) OR (`name` = ?)) AND (`idlesson` = ?))</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_name" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="name" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Original_name" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="name" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="Original_idlesson" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="idlesson" SourceColumnNullMapping="false" SourceVersion="Original" />
+                    </Parameters>
+                  </DbCommand>
+                </DeleteCommand>
+                <InsertCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>INSERT INTO `lesson` (`name`) VALUES (?)</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="name" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="name" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </InsertCommand>
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT        name, idlesson
+FROM            lesson
+WHERE        (grade = ?) AND (idmajor = ?)</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="true" AutogeneratedName="Param1" ColumnName="grade" DataSourceName="lesson" DataTypeServer="DbType.Byte" DbType="Byte" Direction="Input" ParameterName="grade" Precision="0" ProviderType="UnsignedTinyInt" Scale="0" Size="0" SourceColumn="grade" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="Param2" ColumnName="idmajor" DataSourceName="lesson" DataTypeServer="DbType.Int32" DbType="Int32" Direction="Input" ParameterName="idmajor" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="idmajor" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </SelectCommand>
+                <UpdateCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>UPDATE `lesson` SET `name` = ? WHERE (((? = 1 AND `name` IS NULL) OR (`name` = ?)) AND (`idlesson` = ?))</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="name" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="name" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_name" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="name" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Original_name" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="name" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="Original_idlesson" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="idlesson" SourceColumnNullMapping="false" SourceVersion="Original" />
+                    </Parameters>
+                  </DbCommand>
+                </UpdateCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="name" DataSetColumn="name" />
+              <Mapping SourceColumn="idlesson" DataSetColumn="idlesson" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsp_list_number2" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="dsp_list_number2" msprop:Generator_DataSetName="dsp_list_number2" msprop:EnableTableAdapterManager="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="tb_list_number2" msprop:Generator_UserTableName="tb_list_number2" msprop:Generator_RowDeletedName="tb_list_number2RowDeleted" msprop:Generator_RowChangedName="tb_list_number2RowChanged" msprop:Generator_RowClassName="tb_list_number2Row" msprop:Generator_RowChangingName="tb_list_number2RowChanging" msprop:Generator_RowEvArgName="tb_list_number2RowChangeEvent" msprop:Generator_RowEvHandlerName="tb_list_number2RowChangeEventHandler" msprop:Generator_TableClassName="tb_list_number2DataTable" msprop:Generator_TableVarName="tabletb_list_number2" msprop:Generator_RowDeletingName="tb_list_number2RowDeleting" msprop:Generator_TablePropName="tb_list_number2">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="score" msprop:Generator_UserColumnName="score" msprop:Generator_ColumnPropNameInRow="score" msprop:Generator_ColumnVarNameInTable="columnscore" msprop:Generator_ColumnPropNameInTable="scoreColumn" type="xs:double" minOccurs="0" />
+              <xs:element name="idlesson" msprop:Generator_UserColumnName="idlesson" msprop:Generator_ColumnPropNameInRow="idlesson" msprop:Generator_ColumnVarNameInTable="columnidlesson" msprop:Generator_ColumnPropNameInTable="idlessonColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="date" msprop:Generator_UserColumnName="date" msprop:Generator_ColumnPropNameInRow="date" msprop:Generator_ColumnVarNameInTable="columndate" msprop:Generator_ColumnPropNameInTable="dateColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="6" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="idclass" msprop:Generator_UserColumnName="idclass" msprop:Generator_ColumnPropNameInRow="idclass" msprop:Generator_ColumnVarNameInTable="columnidclass" msprop:Generator_ColumnPropNameInTable="idclassColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="Expr1" msprop:Generator_UserColumnName="Expr1" msprop:Generator_ColumnPropNameInRow="Expr1" msprop:Generator_ColumnVarNameInTable="columnExpr1" msprop:Generator_ColumnPropNameInTable="Expr1Column" type="xs:double" minOccurs="0" />
+              <xs:element name="Expr2" msprop:Generator_UserColumnName="Expr2" msprop:Generator_ColumnPropNameInRow="Expr2" msprop:Generator_ColumnVarNameInTable="columnExpr2" msprop:Generator_ColumnPropNameInTable="Expr2Column" type="xs:double" minOccurs="0" />
+              <xs:element name="Expr3" msprop:Generator_UserColumnName="Expr3" msprop:Generator_ColumnPropNameInRow="Expr3" msprop:Generator_ColumnVarNameInTable="columnExpr3" msprop:Generator_ColumnPropNameInTable="Expr3Column" type="xs:double" minOccurs="0" />
+              <xs:element name="Expr4" msprop:Generator_UserColumnName="Expr4" msprop:Generator_ColumnPropNameInRow="Expr4" msprop:Generator_ColumnVarNameInTable="columnExpr4" msprop:Generator_ColumnPropNameInTable="Expr4Column" type="xs:double" minOccurs="0" />
+              <xs:element name="Expr5" msprop:Generator_UserColumnName="Expr5" msprop:Generator_ColumnPropNameInRow="Expr5" msprop:Generator_ColumnVarNameInTable="columnExpr5" msprop:Generator_ColumnPropNameInTable="Expr5Column" type="xs:double" minOccurs="0" />
+              <xs:element name="Expr6" msprop:Generator_UserColumnName="Expr6" msprop:Generator_ColumnPropNameInRow="Expr6" msprop:Generator_ColumnVarNameInTable="columnExpr6" msprop:Generator_ColumnPropNameInTable="Expr6Column" type="xs:double" minOccurs="0" />
+              <xs:element name="Expr7" msprop:Generator_UserColumnName="Expr7" msprop:Generator_ColumnPropNameInRow="Expr7" msprop:Generator_ColumnVarNameInTable="columnExpr7" msprop:Generator_ColumnPropNameInTable="Expr7Column" type="xs:double" minOccurs="0" />
+              <xs:element name="Expr8" msprop:Generator_UserColumnName="Expr8" msprop:Generator_ColumnPropNameInRow="Expr8" msprop:Generator_ColumnVarNameInTable="columnExpr8" msprop:Generator_ColumnPropNameInTable="Expr8Column" type="xs:double" minOccurs="0" />
+              <xs:element name="Expr9" msprop:Generator_UserColumnName="Expr9" msprop:Generator_ColumnPropNameInRow="Expr9" msprop:Generator_ColumnVarNameInTable="columnExpr9" msprop:Generator_ColumnPropNameInTable="Expr9Column" type="xs:double" minOccurs="0" />
+              <xs:element name="idtest" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_UserColumnName="idtest" msprop:Generator_ColumnPropNameInRow="idtest" msprop:Generator_ColumnVarNameInTable="columnidtest" msprop:Generator_ColumnPropNameInTable="idtestColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="lessonname" msprop:Generator_UserColumnName="lessonname" msprop:Generator_ColumnVarNameInTable="columnlessonname" msprop:Generator_ColumnPropNameInRow="lessonname" msprop:Generator_ColumnPropNameInTable="lessonnameColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="student" msprop:Generator_UserTableName="student" msprop:Generator_RowDeletedName="studentRowDeleted" msprop:Generator_RowChangedName="studentRowChanged" msprop:Generator_RowClassName="studentRow" msprop:Generator_RowChangingName="studentRowChanging" msprop:Generator_RowEvArgName="studentRowChangeEvent" msprop:Generator_RowEvHandlerName="studentRowChangeEventHandler" msprop:Generator_TableClassName="studentDataTable" msprop:Generator_TableVarName="tablestudent" msprop:Generator_RowDeletingName="studentRowDeleting" msprop:Generator_TablePropName="student">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="idstudent" msprop:Generator_UserColumnName="idstudent" msprop:Generator_ColumnPropNameInRow="idstudent" msprop:Generator_ColumnVarNameInTable="columnidstudent" msprop:Generator_ColumnPropNameInTable="idstudentColumn" type="xs:double" />
+              <xs:element name="idclass" msprop:Generator_UserColumnName="idclass" msprop:Generator_ColumnPropNameInRow="idclass" msprop:Generator_ColumnVarNameInTable="columnidclass" msprop:Generator_ColumnPropNameInTable="idclassColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="chk" msprop:Generator_UserColumnName="chk" msprop:Generator_ColumnPropNameInRow="chk" msprop:Generator_ColumnVarNameInTable="columnchk" msprop:Generator_ColumnPropNameInTable="chkColumn" type="xs:string" default="False" minOccurs="0" />
+              <xs:element name="stu_name" msdata:ReadOnly="true" msprop:Generator_UserColumnName="stu_name" msprop:Generator_ColumnPropNameInRow="stu_name" msprop:Generator_ColumnVarNameInTable="columnstu_name" msprop:Generator_ColumnPropNameInTable="stu_nameColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="class" msprop:Generator_UserTableName="class" msprop:Generator_RowDeletedName="classRowDeleted" msprop:Generator_RowChangedName="classRowChanged" msprop:Generator_RowClassName="classRow" msprop:Generator_RowChangingName="classRowChanging" msprop:Generator_RowEvArgName="classRowChangeEvent" msprop:Generator_RowEvHandlerName="classRowChangeEventHandler" msprop:Generator_TableClassName="classDataTable" msprop:Generator_TableVarName="tableclass" msprop:Generator_RowDeletingName="classRowDeleting" msprop:Generator_TablePropName="_class">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="idclass" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_UserColumnName="idclass" msprop:Generator_ColumnPropNameInRow="idclass" msprop:Generator_ColumnVarNameInTable="columnidclass" msprop:Generator_ColumnPropNameInTable="idclassColumn" type="xs:int" />
+              <xs:element name="name" msprop:Generator_UserColumnName="name" msprop:Generator_ColumnPropNameInRow="name" msprop:Generator_ColumnVarNameInTable="columnname" msprop:Generator_ColumnPropNameInTable="nameColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="15" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="grade" msprop:Generator_UserColumnName="grade" msprop:Generator_ColumnPropNameInRow="grade" msprop:Generator_ColumnVarNameInTable="columngrade" msprop:Generator_ColumnPropNameInTable="gradeColumn" type="xs:unsignedByte" minOccurs="0" />
+              <xs:element name="idmajor" msprop:Generator_UserColumnName="idmajor" msprop:Generator_ColumnPropNameInRow="idmajor" msprop:Generator_ColumnVarNameInTable="columnidmajor" msprop:Generator_ColumnPropNameInTable="idmajorColumn" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="lesson" msprop:Generator_UserTableName="lesson" msprop:Generator_RowDeletedName="lessonRowDeleted" msprop:Generator_TableClassName="lessonDataTable" msprop:Generator_RowChangedName="lessonRowChanged" msprop:Generator_RowClassName="lessonRow" msprop:Generator_RowChangingName="lessonRowChanging" msprop:Generator_RowEvArgName="lessonRowChangeEvent" msprop:Generator_RowEvHandlerName="lessonRowChangeEventHandler" msprop:Generator_TablePropName="lesson" msprop:Generator_TableVarName="tablelesson" msprop:Generator_RowDeletingName="lessonRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="name" msprop:Generator_UserColumnName="name" msprop:Generator_ColumnPropNameInRow="name" msprop:Generator_ColumnVarNameInTable="columnname" msprop:Generator_ColumnPropNameInTable="nameColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="idlesson" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_UserColumnName="idlesson" msprop:Generator_ColumnPropNameInRow="idlesson" msprop:Generator_ColumnVarNameInTable="columnidlesson" msprop:Generator_ColumnPropNameInTable="idlessonColumn" type="xs:int" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:student" />
+      <xs:field xpath="mstns:idstudent" />
+    </xs:unique>
+    <xs:unique name="class_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:class" />
+      <xs:field xpath="mstns:idclass" />
+    </xs:unique>
+    <xs:unique name="lesson_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:lesson" />
+      <xs:field xpath="mstns:idlesson" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

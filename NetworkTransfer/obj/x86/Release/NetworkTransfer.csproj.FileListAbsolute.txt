@@ -1,0 +1,17 @@
+C:\Users\exploiter\Desktop\school management\school management\NetworkTransfer\bin\Release\NetworkTransfer.exe.config
+C:\Users\exploiter\Desktop\school management\school management\NetworkTransfer\bin\Release\NetworkTransfer.exe
+C:\Users\exploiter\Desktop\school management\school management\NetworkTransfer\bin\Release\NetworkTransfer.pdb
+C:\Users\exploiter\Desktop\school management\school management\NetworkTransfer\obj\x86\Release\NetworkTransfer.Form1.resources
+C:\Users\exploiter\Desktop\school management\school management\NetworkTransfer\obj\x86\Release\NetworkTransfer.Properties.Resources.resources
+C:\Users\exploiter\Desktop\school management\school management\NetworkTransfer\obj\x86\Release\NetworkTransfer.csproj.GenerateResource.Cache
+C:\Users\exploiter\Desktop\school management\school management\NetworkTransfer\obj\x86\Release\NetworkTransfer.exe
+C:\Users\exploiter\Desktop\school management\school management\NetworkTransfer\obj\x86\Release\NetworkTransfer.pdb
+E:\school management\school management\NetworkTransfer\bin\Release\NetworkTransfer.exe.config
+E:\school management\school management\NetworkTransfer\bin\Release\NetworkTransfer.exe
+E:\school management\school management\NetworkTransfer\bin\Release\NetworkTransfer.pdb
+E:\school management\school management\NetworkTransfer\obj\x86\Release\NetworkTransfer.csprojResolveAssemblyReference.cache
+E:\school management\school management\NetworkTransfer\obj\x86\Release\NetworkTransfer.Form1.resources
+E:\school management\school management\NetworkTransfer\obj\x86\Release\NetworkTransfer.Properties.Resources.resources
+E:\school management\school management\NetworkTransfer\obj\x86\Release\NetworkTransfer.csproj.GenerateResource.Cache
+E:\school management\school management\NetworkTransfer\obj\x86\Release\NetworkTransfer.exe
+E:\school management\school management\NetworkTransfer\obj\x86\Release\NetworkTransfer.pdb

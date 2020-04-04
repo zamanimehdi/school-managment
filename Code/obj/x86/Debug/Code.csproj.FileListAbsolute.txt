@@ -1,0 +1,69 @@
+E:\school management\school management 6.2\Code\bin\x86\Debug\school management.exe.config
+E:\school management\school management 6.2\Code\obj\x86\Debug\Interop.ADOX.dll
+E:\school management\school management 6.2\Code\obj\x86\Debug\Code.csproj.ResolveComReference.cache
+D:\Programing\c#\Mine\school management\school management 6.2 با ابتدایی\Code\bin\x86\Debug\school management.exe.config
+D:\Programing\c#\Mine\school management\school management 6.2 با ابتدایی\Code\obj\x86\Debug\Interop.ADOX.dll
+D:\Programing\c#\Mine\school management\school management 6.2 با ابتدایی\Code\obj\x86\Debug\Code.csproj.ResolveComReference.cache
+D:\Programing\c#\Mine\school management\school management 6.2 با ابتدایی\Code\obj\x86\Debug\Student.AboutBox.resources
+D:\Programing\c#\Mine\school management\school management 6.2 با ابتدایی\Code\obj\x86\Debug\Student.frm_behaviourscore.resources
+D:\Programing\c#\Mine\school management\school management 6.2 با ابتدایی\Code\obj\x86\Debug\Student.frm_arm.resources
+D:\Programing\c#\Mine\school management\school management 6.2 با ابتدایی\Code\obj\x86\Debug\Student.frm_class_salane.resources
+D:\Programing\c#\Mine\school management\school management 6.2 با ابتدایی\Code\obj\x86\Debug\Student.frm_ravand_salane.resources
+D:\Programing\c#\Mine\school management\school management 6.2 با ابتدایی\Code\obj\x86\Debug\Student.frm_faravani.resources
+D:\Programing\c#\Mine\school management\school management 6.2 با ابتدایی\Code\obj\x86\Debug\Student.frm_sort_dialog.resources
+D:\Programing\c#\Mine\school management\school management 6.2 با ابتدایی\Code\obj\x86\Debug\Student.print_list_number_2.resources
+D:\Programing\c#\Mine\school management\school management 6.2 با ابتدایی\Code\obj\x86\Debug\Student.print_list_number.resources
+D:\Programing\c#\Mine\school management\school management 6.2 با ابتدایی\Code\obj\x86\Debug\Student.frm_print_hamahang.resources
+D:\Programing\c#\Mine\school management\school management 6.2 با ابتدایی\Code\obj\x86\Debug\Student.frm_hamahang_test.resources
+D:\Programing\c#\Mine\school management\school management 6.2 با ابتدایی\Code\obj\x86\Debug\Student.frm_hamahang.resources
+D:\Programing\c#\Mine\school management\school management 6.2 با ابتدایی\Code\obj\x86\Debug\Student.print_lesson.resources
+D:\Programing\c#\Mine\school management\school management 6.2 با ابتدایی\Code\obj\x86\Debug\Student.frm_datechange.resources
+D:\Programing\c#\Mine\school management\school management 6.2 با ابتدایی\Code\obj\x86\Debug\Student.frm_exception.resources
+D:\Programing\c#\Mine\school management\school management 6.2 با ابتدایی\Code\obj\x86\Debug\Student.frm_reporttofamily.resources
+D:\Programing\c#\Mine\school management\school management 6.2 با ابتدایی\Code\obj\x86\Debug\Student.frm_nemodare_darsi.resources
+D:\Programing\c#\Mine\school management\school management 6.2 با ابتدایی\Code\obj\x86\Debug\Student.frm_cost.resources
+D:\Programing\c#\Mine\school management\school management 6.2 با ابتدایی\Code\obj\x86\Debug\Student.frm_db.resources
+D:\Programing\c#\Mine\school management\school management 6.2 با ابتدایی\Code\obj\x86\Debug\Student.frm_report_hazyneha.resources
+D:\Programing\c#\Mine\school management\school management 6.2 با ابتدایی\Code\obj\x86\Debug\Student.frm_report_cost_koli.resources
+D:\Programing\c#\Mine\school management\school management 6.2 با ابتدایی\Code\obj\x86\Debug\Student.frm_selectclass_mali.resources
+D:\Programing\c#\Mine\school management\school management 6.2 با ابتدایی\Code\obj\x86\Debug\Student.register.resources
+D:\Programing\c#\Mine\school management\school management 6.2 با ابتدایی\Code\obj\x86\Debug\Student.frm_setpassword.resources
+D:\Programing\c#\Mine\school management\school management 6.2 با ابتدایی\Code\obj\x86\Debug\Student.frm_restorebackup.resources
+D:\Programing\c#\Mine\school management\school management 6.2 با ابتدایی\Code\obj\x86\Debug\Student.frm_getpassword.resources
+D:\Programing\c#\Mine\school management\school management 6.2 با ابتدایی\Code\obj\x86\Debug\Student.frm_messageboxwithpass.resources
+D:\Programing\c#\Mine\school management\school management 6.2 با ابتدایی\Code\obj\x86\Debug\Student.frm_workteacher.resources
+D:\Programing\c#\Mine\school management\school management 6.2 با ابتدایی\Code\obj\x86\Debug\Student.Help.resources
+D:\Programing\c#\Mine\school management\school management 6.2 با ابتدایی\Code\obj\x86\Debug\Student.frm_lesson.resources
+D:\Programing\c#\Mine\school management\school management 6.2 با ابتدایی\Code\obj\x86\Debug\Student.frm_behaviour.resources
+D:\Programing\c#\Mine\school management\school management 6.2 با ابتدایی\Code\obj\x86\Debug\Student.frm_class.resources
+D:\Programing\c#\Mine\school management\school management 6.2 با ابتدایی\Code\obj\x86\Debug\Student.frm_classdialog.resources
+D:\Programing\c#\Mine\school management\school management 6.2 با ابتدایی\Code\obj\x86\Debug\Student.frm_major.resources
+D:\Programing\c#\Mine\school management\school management 6.2 با ابتدایی\Code\obj\x86\Debug\Student.frm_proces.resources
+D:\Programing\c#\Mine\school management\school management 6.2 با ابتدایی\Code\obj\x86\Debug\Student.frm_schooltype.resources
+D:\Programing\c#\Mine\school management\school management 6.2 با ابتدایی\Code\obj\x86\Debug\Student.frm_st_teacher.resources
+D:\Programing\c#\Mine\school management\school management 6.2 با ابتدایی\Code\obj\x86\Debug\Student.frm_inputnumber.resources
+D:\Programing\c#\Mine\school management\school management 6.2 با ابتدایی\Code\obj\x86\Debug\Student.frm_lessonteacher.resources
+D:\Programing\c#\Mine\school management\school management 6.2 با ابتدایی\Code\obj\x86\Debug\Student.Frm_Main.resources
+D:\Programing\c#\Mine\school management\school management 6.2 با ابتدایی\Code\obj\x86\Debug\Student.frm_prepaid.resources
+D:\Programing\c#\Mine\school management\school management 6.2 با ابتدایی\Code\obj\x86\Debug\Student.frm_mini_dialog.resources
+D:\Programing\c#\Mine\school management\school management 6.2 با ابتدایی\Code\obj\x86\Debug\Student.frm_preview.resources
+D:\Programing\c#\Mine\school management\school management 6.2 با ابتدایی\Code\obj\x86\Debug\Student.Properties.Resources.resources
+D:\Programing\c#\Mine\school management\school management 6.2 با ابتدایی\Code\obj\x86\Debug\Student.frm_test.resources
+D:\Programing\c#\Mine\school management\school management 6.2 با ابتدایی\Code\obj\x86\Debug\Student.frm_student.resources
+D:\Programing\c#\Mine\school management\school management 6.2 با ابتدایی\Code\obj\x86\Debug\Student.frm_choosest.resources
+D:\Programing\c#\Mine\school management\school management 6.2 با ابتدایی\Code\obj\x86\Debug\Student.frm_teacher.resources
+D:\Programing\c#\Mine\school management\school management 6.2 با ابتدایی\Code\obj\x86\Debug\Student.frmp_student.resources
+D:\Programing\c#\Mine\school management\school management 6.2 با ابتدایی\Code\obj\x86\Debug\Student.frm_listnumber.resources
+D:\Programing\c#\Mine\school management\school management 6.2 با ابتدایی\Code\obj\x86\Debug\Student.frm_selectclass.resources
+D:\Programing\c#\Mine\school management\school management 6.2 با ابتدایی\Code\obj\x86\Debug\Student.Frm_Splash.resources
+D:\Programing\c#\Mine\school management\school management 6.2 با ابتدایی\Code\obj\x86\Debug\Student.frm_aghsat.resources
+D:\Programing\c#\Mine\school management\school management 6.2 با ابتدایی\Code\obj\x86\Debug\Student.frm_student_av_list.resources
+D:\Programing\c#\Mine\school management\school management 6.2 با ابتدایی\Code\obj\x86\Debug\Code.csproj.GenerateResource.Cache
+D:\Programing\c#\Mine\school management\school management 6.2 با ابتدایی\Code\bin\x86\Debug\Help\help.htm
+D:\Programing\c#\Mine\school management\school management 6.2 با ابتدایی\Code\bin\x86\Debug\Help\help.jpg
+D:\Programing\c#\Mine\school management\school management 6.2 با ابتدایی\Code\bin\x86\Debug\data.mdb
+D:\Programing\c#\Mine\school management\school management 6.2 با ابتدایی\Code\bin\x86\Debug\school management.exe
+D:\Programing\c#\Mine\school management\school management 6.2 با ابتدایی\Code\bin\x86\Debug\school management.pdb
+D:\Programing\c#\Mine\school management\school management 6.2 با ابتدایی\Code\bin\x86\Debug\Interop.ADOX.dll
+D:\Programing\c#\Mine\school management\school management 6.2 با ابتدایی\Code\obj\x86\Debug\school management.exe
+D:\Programing\c#\Mine\school management\school management 6.2 با ابتدایی\Code\obj\x86\Debug\school management.pdb

@@ -1,0 +1,32 @@
+E:\Programing\Work Out\c#\Mine\school management\keygen\obj\Release\keygen.exe
+E:\Programing\Work Out\c#\Mine\school management\keygen\obj\Release\keygen.pdb
+E:\Programing\Work Out\c#\Mine\school management\keygen\bin\Release\keygen.exe
+E:\Programing\Work Out\c#\Mine\school management\keygen\bin\Release\keygen.pdb
+E:\Programing\Work Out\c#\Mine\school management\keygen\obj\Release\ResolveAssemblyReference.cache
+E:\Programing\Work Out\c#\Mine\school management\keygen\obj\Release\keygen.keygen.resources
+E:\Programing\Work Out\c#\Mine\school management\keygen\obj\Release\keygen.Properties.Resources.resources
+E:\Programing\Work Out\c#\Mine\school management\keygen\obj\Release\keygen.csproj.GenerateResource.Cache
+F:\Programing\Work Out\c#\Mine\school management\keygen\bin\Release\keygen.exe
+F:\Programing\Work Out\c#\Mine\school management\keygen\bin\Release\keygen.pdb
+F:\Programing\Work Out\c#\Mine\school management\keygen\obj\Release\ResolveAssemblyReference.cache
+F:\Programing\Work Out\c#\Mine\school management\keygen\obj\Release\keygen.keygen.resources
+F:\Programing\Work Out\c#\Mine\school management\keygen\obj\Release\keygen.Properties.Resources.resources
+F:\Programing\Work Out\c#\Mine\school management\keygen\obj\Release\keygen.csproj.GenerateResource.Cache
+F:\Programing\Work Out\c#\Mine\school management\keygen\obj\Release\keygen.exe
+F:\Programing\Work Out\c#\Mine\school management\keygen\obj\Release\keygen.pdb
+F:\Programing\Work Out\c#\Mine\school management\keygen\bin\Debug\keygen.exe
+F:\Programing\Work Out\c#\Mine\school management\keygen\bin\Debug\keygen.pdb
+F:\Programing\Work Out\c#\Mine\school management\keygen\obj\Debug\ResolveAssemblyReference.cache
+F:\Programing\Work Out\c#\Mine\school management\keygen\obj\Debug\keygen.keygen.resources
+F:\Programing\Work Out\c#\Mine\school management\keygen\obj\Debug\keygen.Properties.Resources.resources
+F:\Programing\Work Out\c#\Mine\school management\keygen\obj\Debug\keygen.csproj.GenerateResource.Cache
+F:\Programing\Work Out\c#\Mine\school management\keygen\obj\Debug\keygen.exe
+F:\Programing\Work Out\c#\Mine\school management\keygen\obj\Debug\keygen.pdb
+F:\Programing\Work Out\c#\Mine\school management ver2.5\keygen\bin\Release\keygen.exe
+F:\Programing\Work Out\c#\Mine\school management ver2.5\keygen\bin\Release\keygen.pdb
+F:\Programing\Work Out\c#\Mine\school management ver2.5\keygen\obj\Release\ResolveAssemblyReference.cache
+F:\Programing\Work Out\c#\Mine\school management ver2.5\keygen\obj\Release\keygen.keygen.resources
+F:\Programing\Work Out\c#\Mine\school management ver2.5\keygen\obj\Release\keygen.Properties.Resources.resources
+F:\Programing\Work Out\c#\Mine\school management ver2.5\keygen\obj\Release\keygen.csproj.GenerateResource.Cache
+F:\Programing\Work Out\c#\Mine\school management ver2.5\keygen\obj\Release\keygen.exe
+F:\Programing\Work Out\c#\Mine\school management ver2.5\keygen\obj\Release\keygen.pdb

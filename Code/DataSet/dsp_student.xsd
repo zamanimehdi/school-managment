@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsp_student" targetNamespace="http://tempuri.org/dsp_student.xsd" xmlns:mstns="http://tempuri.org/dsp_student.xsd" xmlns="http://tempuri.org/dsp_student.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="DataConnectionString" ConnectionStringObject="" IsAppSettingsProperty="True" Modifier="Assembly" Name="DataConnectionString (Settings)" PropertyReference="ApplicationSettings.Student.Properties.Settings.GlobalReference.Default.DataConnectionString" Provider="System.Data.OleDb">
+          </Connection>
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="studentTableAdapter" GeneratorDataComponentClassName="studentTableAdapter" Name="student" UserDataComponentName="studentTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="DataConnectionString (Settings)" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Fill" GenerateShortCommands="False" GeneratorSourceName="Fill" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="True" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="True">
+                    <CommandText>SELECT     student.idstudent, student.lname, student.name, student.sh, student.fname, student.address, student.tell, student.idclass, class.name AS classname, 
+                      class.grade, major.name AS Expr2, class.idmajor
+FROM         ((major RIGHT OUTER JOIN
+                      class ON major.idmajor = class.idmajor) RIGHT OUTER JOIN
+                      student ON class.idclass = student.idclass)</CommandText>
+                    <Parameters>
+                    </Parameters>
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="idstudent" DataSetColumn="idstudent" />
+              <Mapping SourceColumn="lname" DataSetColumn="lname" />
+              <Mapping SourceColumn="name" DataSetColumn="name" />
+              <Mapping SourceColumn="sh" DataSetColumn="sh" />
+              <Mapping SourceColumn="fname" DataSetColumn="fname" />
+              <Mapping SourceColumn="address" DataSetColumn="address" />
+              <Mapping SourceColumn="tell" DataSetColumn="tell" />
+              <Mapping SourceColumn="idclass" DataSetColumn="idclass" />
+              <Mapping SourceColumn="classname" DataSetColumn="classname" />
+              <Mapping SourceColumn="grade" DataSetColumn="grade" />
+              <Mapping SourceColumn="Expr2" DataSetColumn="majorname" />
+              <Mapping SourceColumn="idmajor" DataSetColumn="idmajor" />
+            </Mappings>
+            <Sources>
+              <DbSource ConnectionRef="DataConnectionString (Settings)" DbObjectType="Unknown" GenerateShortCommands="True" GeneratorSourceName="recordcount" Modifier="Public" Name="recordcount" QueryType="Scalar" ScalarCallRetval="System.Int32, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="True" UserGetMethodName="GetDataBy" UserSourceName="recordcount">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="True">
+                    <CommandText>SELECT     COUNT(*) AS Expr1
+FROM         ((major RIGHT OUTER JOIN
+                      class ON major.idmajor = class.idmajor) RIGHT OUTER JOIN
+                      student ON class.idclass = student.idclass)</CommandText>
+                    <Parameters>
+                    </Parameters>
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </Sources>
+          </TableAdapter>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsp_student" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="dsp_student" msprop:Generator_DataSetName="dsp_student">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="student" msprop:Generator_UserTableName="student" msprop:Generator_RowDeletedName="studentRowDeleted" msprop:Generator_RowChangedName="studentRowChanged" msprop:Generator_RowClassName="studentRow" msprop:Generator_RowChangingName="studentRowChanging" msprop:Generator_RowEvArgName="studentRowChangeEvent" msprop:Generator_RowEvHandlerName="studentRowChangeEventHandler" msprop:Generator_TableClassName="studentDataTable" msprop:Generator_TableVarName="tablestudent" msprop:Generator_RowDeletingName="studentRowDeleting" msprop:Generator_TablePropName="student">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="idstudent" msprop:Generator_UserColumnName="idstudent" msprop:Generator_ColumnVarNameInTable="columnidstudent" msprop:Generator_ColumnPropNameInRow="idstudent" msprop:Generator_ColumnPropNameInTable="idstudentColumn" type="xs:unsignedLong" minOccurs="0" />
+              <xs:element name="lname" msprop:Generator_UserColumnName="lname" msprop:Generator_ColumnVarNameInTable="columnlname" msprop:Generator_ColumnPropNameInRow="lname" msprop:Generator_ColumnPropNameInTable="lnameColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="name" msprop:Generator_UserColumnName="name" msprop:Generator_ColumnVarNameInTable="columnname" msprop:Generator_ColumnPropNameInRow="name" msprop:Generator_ColumnPropNameInTable="nameColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="sh" msprop:Generator_UserColumnName="sh" msprop:Generator_ColumnVarNameInTable="columnsh" msprop:Generator_ColumnPropNameInRow="sh" msprop:Generator_ColumnPropNameInTable="shColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="15" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="fname" msprop:Generator_UserColumnName="fname" msprop:Generator_ColumnVarNameInTable="columnfname" msprop:Generator_ColumnPropNameInRow="fname" msprop:Generator_ColumnPropNameInTable="fnameColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="address" msprop:Generator_UserColumnName="address" msprop:Generator_ColumnVarNameInTable="columnaddress" msprop:Generator_ColumnPropNameInRow="address" msprop:Generator_ColumnPropNameInTable="addressColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="536870910" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="tell" msprop:Generator_UserColumnName="tell" msprop:Generator_ColumnVarNameInTable="columntell" msprop:Generator_ColumnPropNameInRow="tell" msprop:Generator_ColumnPropNameInTable="tellColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="idclass" msprop:Generator_UserColumnName="idclass" msprop:Generator_ColumnVarNameInTable="columnidclass" msprop:Generator_ColumnPropNameInRow="idclass" msprop:Generator_ColumnPropNameInTable="idclassColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="classname" msprop:Generator_UserColumnName="classname" msprop:Generator_ColumnVarNameInTable="columnclassname" msprop:Generator_ColumnPropNameInRow="classname" msprop:Generator_ColumnPropNameInTable="classnameColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="15" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="grade" msprop:Generator_UserColumnName="grade" msprop:Generator_ColumnVarNameInTable="columngrade" msprop:Generator_ColumnPropNameInRow="grade" msprop:Generator_ColumnPropNameInTable="gradeColumn" type="xs:unsignedByte" minOccurs="0" />
+              <xs:element name="majorname" msdata:Caption="Expr2" msprop:Generator_UserColumnName="majorname" msprop:Generator_ColumnVarNameInTable="columnmajorname" msprop:Generator_ColumnPropNameInRow="majorname" msprop:Generator_ColumnPropNameInTable="majornameColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="35" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="idmajor" msprop:Generator_UserColumnName="idmajor" msprop:Generator_ColumnVarNameInTable="columnidmajor" msprop:Generator_ColumnPropNameInRow="idmajor" msprop:Generator_ColumnPropNameInTable="idmajorColumn" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

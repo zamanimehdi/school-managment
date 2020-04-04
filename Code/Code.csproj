@@ -1,0 +1,1814 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{59B9CC54-D131-4F63-9FFD-C4C45CF9127F}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Student</RootNamespace>
+    <AssemblyName>school management</AssemblyName>
+    <ApplicationIcon>admin_48.ico</ApplicationIcon>
+    <IsWebBootstrapper>true</IsWebBootstrapper>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <SignManifests>false</SignManifests>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <PublishUrl>http://localhost/school management/</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Web</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>
+    </DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <DocumentationFile>
+    </DocumentationFile>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisLogFile>bin\Debug\school management.exe.CodeAnalysisLog.xml</CodeAnalysisLogFile>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSetDirectories>;D:\Programing\Vs.Net 2010\Team Tools\Static Analysis Tools\\Rule Sets</CodeAnalysisRuleSetDirectories>
+    <CodeAnalysisRuleDirectories>;D:\Programing\Vs.Net 2010\Team Tools\Static Analysis Tools\FxCop\\Rules</CodeAnalysisRuleDirectories>
+    <CodeAnalysisFailOnMissingRules>false</CodeAnalysisFailOnMissingRules>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisLogFile>bin\Release\school management.exe.CodeAnalysisLog.xml</CodeAnalysisLogFile>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSetDirectories>;D:\Programing\Vs.Net 2010\Team Tools\Static Analysis Tools\\Rule Sets</CodeAnalysisRuleSetDirectories>
+    <CodeAnalysisRuleDirectories>;D:\Programing\Vs.Net 2010\Team Tools\Static Analysis Tools\FxCop\\Rules</CodeAnalysisRuleDirectories>
+    <CodeAnalysisIgnoreBuiltInRules>false</CodeAnalysisIgnoreBuiltInRules>
+    <CodeAnalysisFailOnMissingRules>false</CodeAnalysisFailOnMissingRules>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="adodb, Version=7.0.3300.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files\Microsoft.NET\Primary Interop Assemblies\adodb.dll</HintPath>
+    </Reference>
+    <Reference Include="CollapsiblePanelBar, Version=1.4.1083.28078, Culture=neutral, PublicKeyToken=ad5e6431b6b2000e">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>F:\Compailer\Work Out\c#\R\Controls\CollapsiblePanelBar.dll</HintPath>
+    </Reference>
+    <Reference Include="ComponentFactory.Krypton.Toolkit, Version=2.1.0.0, Culture=neutral, PublicKeyToken=a87e673e9ecb6e8e, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Shared, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.Build.Engine" />
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="ProgressRoller, Version=1.0.0.0, Culture=neutral">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>F:\Compailer\Work Out\c#\R\Controls\ProgressRoller.dll</HintPath>
+    </Reference>
+    <Reference Include="StyledForms, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>F:\Compailer\Work Out\c#\R\Reference\GoogleTalkWindowsForm\StyledForms.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\WINDOWS\assembly\GAC_MSIL\System.Web.Services\2.0.0.0__b03f5f7f11d50a3a\System.Web.Services.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="XCtrls, Version=1.0.2405.28303, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>F:\Compailer\Work Out\c#\R\Controls\XCtrls.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DataSet\dsp_class_salane.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsp_class_salane.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSet\dsp_hamahang_list2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsp_hamahang_list2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSet\dsp_hamahang_listnumber.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsp_hamahang_listnumber.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSet\dsp_hamahang_st_sort.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsp_hamahang_st_sort.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSet\dsp_hhamahang_report.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsp_hhamahang_report.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSet\dsp_list_number_tiz2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsp_list_number_tiz2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSet\dsp_list_number_tizhoshan.cs">
+      <DependentUpon>dsp_list_number_tizhoshan.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DataSet\dsp_list_number_tizhoshan.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsp_list_number_tizhoshan.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSet\dsp_print_lesson.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsp_print_lesson.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSet\ds_cost.cs">
+      <DependentUpon>ds_cost.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DataSet\ds_cost.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ds_cost.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSet\ds_cost_koli.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ds_cost_koli.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSet\ds_hamahang_test.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ds_hamahang_test.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSet\ds_hamhang.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ds_hamhang.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSet\ds_paye_av_list.cs">
+      <DependentUpon>ds_paye_av_list.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DataSet\ds_paye_av_list.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ds_paye_av_list.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Form\behaviourscore.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\behaviourscore.Designer.cs">
+      <DependentUpon>behaviourscore.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\AboutBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\AboutBox.Designer.cs">
+      <DependentUpon>AboutBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataSet\ds_classstudent.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ds_classstudent.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSet\ds_reporttofamily.cs">
+      <DependentUpon>ds_reporttofamily.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DataSet\ds_reporttofamily.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ds_reporttofamily.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSet\ds_studentbyclass.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ds_studentbyclass.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Form\frm_ravand_salane.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\frm_ravand_salane.designer.cs">
+      <DependentUpon>frm_ravand_salane.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\frm_rep3_salane.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\frm_rep3_salane.designer.cs">
+      <DependentUpon>frm_rep3_salane.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\print_list_number_2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\print_list_number_2.Designer.cs">
+      <DependentUpon>print_list_number_2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\print_list_number_tizhosh.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\print_list_number_tizhosh.Designer.cs">
+      <DependentUpon>print_list_number_tizhosh.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\print_hamahang.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\print_hamahang.Designer.cs">
+      <DependentUpon>print_hamahang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\hamahang_test.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\hamahang_test.Designer.cs">
+      <DependentUpon>hamahang_test.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\hamahang.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\hamahang.Designer.cs">
+      <DependentUpon>hamahang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\print_lesson.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\print_lesson.Designer.cs">
+      <DependentUpon>print_lesson.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\datechange.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\datechange.Designer.cs">
+      <DependentUpon>datechange.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\exception.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\exception.Designer.cs">
+      <DependentUpon>exception.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\reporttofamily.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\reporttofamily.Designer.cs">
+      <DependentUpon>reporttofamily.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\nemodare_darsi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\nemodare_darsi.Designer.cs">
+      <DependentUpon>nemodare_darsi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\frm_cost.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\frm_cost.Designer.cs">
+      <DependentUpon>frm_cost.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\frm_db.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\frm_db.Designer.cs">
+      <DependentUpon>frm_db.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\frm_report_hazyneha.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\frm_report_hazyneha.Designer.cs">
+      <DependentUpon>frm_report_hazyneha.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\frm_report_cost_koli.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\frm_report_cost_koli.Designer.cs">
+      <DependentUpon>frm_report_cost_koli.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\frm_selectclass_mali.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\frm_selectclass_mali.Designer.cs">
+      <DependentUpon>frm_selectclass_mali.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\frm_arm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\frm_arm.Designer.cs">
+      <DependentUpon>frm_arm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\frm_sort_dialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\frm_sort_dialog.Designer.cs">
+      <DependentUpon>frm_sort_dialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\frm_class_salane.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\frm_class_salane.Designer.cs">
+      <DependentUpon>frm_class_salane.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Report\classbehav.cs">
+      <DependentUpon>classbehav.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="DataSet\dsp_listnumber2.cs">
+      <DependentUpon>dsp_listnumber2.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DataSet\dsp_listnumber3.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsp_listnumber3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSet\dsp_mali.cs">
+      <DependentUpon>dsp_mali.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DataSet\dsp_mali.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsp_mali.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSet\dsp_teacherwork.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsp_teacherwork.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSet\ds_behaviour.cs">
+      <DependentUpon>ds_behaviour.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DataSet\ds_major.cs">
+      <DependentUpon>ds_major.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DataSet\dsp_moadelwithvahed.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsp_moadelwithvahed.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSet\ds_aghsat.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ds_aghsat.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSet\dsp_nemodar.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsp_nemodar.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSet\dsp_mali2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsp_mali2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSet\workteacher.cs">
+      <DependentUpon>workteacher.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DataSet\ds_studentlist_av.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ds_studentlist_av.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSet\dsp_behavclass.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsp_behavclass.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Form\setpassword.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\setpassword.Designer.cs">
+      <DependentUpon>setpassword.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\getpassword.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\getpassword.Designer.cs">
+      <DependentUpon>getpassword.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\messageboxwithpass.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\messageboxwithpass.Designer.cs">
+      <DependentUpon>messageboxwithpass.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\Help.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\Help.Designer.cs">
+      <DependentUpon>Help.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\register.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\register.Designer.cs">
+      <DependentUpon>register.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Report\class_salane.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>class_salane.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\listnumber_tizhoshan_sort_lname.cs">
+      <DependentUpon>listnumber_tizhoshan_sort_lname.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Report\hamahang_0_ver2.cs">
+      <DependentUpon>hamahang_0_ver2.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Report\grade_av_list.cs">
+      <DependentUpon>grade_av_list.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Report\hamahang_2_dorosreport.cs">
+      <DependentUpon>hamahang_2_dorosreport.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Report\hamahang_0.cs">
+      <DependentUpon>hamahang_0.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Report\hamahang_listnumber2.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>hamahang_listnumber2.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\lessonreport.cs">
+      <DependentUpon>lessonreport.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Report\listnumber_tizhoshan.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>listnumber_tizhoshan.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\list__number_tiz2.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>list__number_tiz2.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\nemodar_paye.cs">
+      <DependentUpon>nemodar_paye.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Report\cost.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>cost.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\mali2.cs">
+      <DependentUpon>mali2.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Report\nemodar.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>nemodar.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\behav.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>behav.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="can.cs" />
+    <Compile Include="DataSet\dsp_behav.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsp_behav.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSet\dsp_listnumber.cs">
+      <DependentUpon>dsp_listnumber.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DataSet\dsp_listnumber.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsp_listnumber.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSet\dsp_student.cs">
+      <DependentUpon>dsp_student.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DataSet\ds_inputnumber.cs">
+      <DependentUpon>ds_inputnumber.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DataSet\ds_inputnumber.designer.cs">
+      <DependentUpon>ds_inputnumber.xsd</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="DataSet\ds_lesson.cs">
+      <DependentUpon>ds_lesson.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DataSet\ds_lesson.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ds_lesson.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSet\dsp_student.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsp_student.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSet\dsp_listnumber2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsp_listnumber2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Form\lesson.cs" />
+    <Compile Include="Form\lesson.Designer.cs">
+      <DependentUpon>lesson.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataSet\ds_classdialog.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ds_classdialog.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Form\classdialog.cs" />
+    <Compile Include="Form\classdialog.Designer.cs">
+      <DependentUpon>classdialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataSet\ds_choosest.cs">
+      <DependentUpon>ds_choosest.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DataSet\ds_choosest.Designer.cs">
+      <DependentUpon>ds_choosest.xsd</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="DataSet\ds_teacher.cs">
+      <DependentUpon>ds_teacher.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DataSet\ds_teacher.Designer.cs">
+      <DependentUpon>ds_teacher.xsd</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="DataSet\ds_lessonteacher.cs">
+      <DependentUpon>ds_lessonteacher.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DataSet\ds_lessonteacher.Designer.cs">
+      <DependentUpon>ds_lessonteacher.xsd</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="DataSet\ds_major.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ds_major.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSet\ds_class.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ds_class.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Form\behaviour.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\behaviour.Designer.cs">
+      <DependentUpon>behaviour.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataSet\ds_score.cs">
+      <DependentUpon>ds_score.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DataSet\ds_score.Designer.cs">
+      <DependentUpon>ds_score.xsd</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="DataSet\ds_prepaidstudent.cs">
+      <DependentUpon>ds_prepaidstudent.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DataSet\ds_prepaidstudent.Designer.cs">
+      <DependentUpon>ds_prepaidstudent.xsd</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="DataSet\ds_student.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ds_student.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSet\ds_behaviour.Designer.cs">
+      <DependentUpon>ds_behaviour.xsd</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Form\class.cs" />
+    <Compile Include="Form\class.Designer.cs">
+      <DependentUpon>class.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\major.cs" />
+    <Compile Include="Form\major.Designer.cs">
+      <DependentUpon>major.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\select_teacher.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\select_teacher.Designer.cs">
+      <DependentUpon>select_teacher.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\inputnumber.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\inputnumber.Designer.cs">
+      <DependentUpon>inputnumber.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\lessonteacher.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\lessonteacher.Designer.cs">
+      <DependentUpon>lessonteacher.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\schooltype.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\schooltype.Designer.cs">
+      <DependentUpon>schooltype.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\proces.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\proces.Designer.cs">
+      <DependentUpon>proces.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Report\listnumber2.cs">
+      <DependentUpon>listnumber2.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Report\listnumber.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>listnumber.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Main Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main Form.Designer.cs">
+      <DependentUpon>Main Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\prepaid.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\prepaid.Designer.cs">
+      <DependentUpon>prepaid.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\mini_dialog_form.cs" />
+    <Compile Include="Form\mini_dialog_form.Designer.cs">
+      <DependentUpon>mini_dialog_form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\preview.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\preview.Designer.cs">
+      <DependentUpon>preview.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form\AboutBox.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>AboutBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\behaviourscore.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>behaviourscore.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\frm_arm.resx">
+      <DependentUpon>frm_arm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\frm_class_salane.resx">
+      <DependentUpon>frm_class_salane.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\frm_ravand_salane.resx">
+      <DependentUpon>frm_ravand_salane.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\frm_rep3_salane.resx">
+      <DependentUpon>frm_rep3_salane.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\frm_sort_dialog.resx">
+      <DependentUpon>frm_sort_dialog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\print_list_number_2.resx">
+      <DependentUpon>print_list_number_2.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\print_list_number_tizhosh.resx">
+      <DependentUpon>print_list_number_tizhosh.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\print_hamahang.resx">
+      <DependentUpon>print_hamahang.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\hamahang_test.resx">
+      <DependentUpon>hamahang_test.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\hamahang.resx">
+      <DependentUpon>hamahang.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\print_lesson.resx">
+      <DependentUpon>print_lesson.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\datechange.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>datechange.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\exception.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>exception.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\reporttofamily.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>reporttofamily.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\nemodare_darsi.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>nemodare_darsi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\frm_cost.resx">
+      <DependentUpon>frm_cost.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\frm_db.resx">
+      <DependentUpon>frm_db.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\frm_report_hazyneha.resx">
+      <DependentUpon>frm_report_hazyneha.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\frm_report_cost_koli.resx">
+      <DependentUpon>frm_report_cost_koli.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\frm_selectclass_mali.resx">
+      <DependentUpon>frm_selectclass_mali.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\classbehav.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>classbehav.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\register.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>register.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\setpassword.resx">
+      <DependentUpon>setpassword.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\restorebackup.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>restorebackup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\getpassword.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>getpassword.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\messageboxwithpass.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>messageboxwithpass.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\workteacher.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>workteacher.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\Help.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Help.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\class_salane.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>class_salane.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\listnumber_tizhoshan_sort_lname.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>listnumber_tizhoshan_sort_lname.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\hamahang_0_ver2.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>hamahang_0_ver2.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\grade_av_list.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>grade_av_list.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\hamahang_2_dorosreport.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>hamahang_2_dorosreport.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\hamahang_0.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>hamahang_0.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\hamahang_listnumber2.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>hamahang_listnumber2.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\lessonreport.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>lessonreport.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\listnumber_tizhoshan.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>listnumber_tizhoshan.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\list__number_tiz2.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>list__number_tiz2.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\nemodar_paye.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>nemodar_paye.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\cost.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>cost.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\mali2.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>mali2.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\nemodar.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>nemodar.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\behav.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>behav.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\lesson.resx">
+      <DependentUpon>lesson.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\behaviour.resx">
+      <DependentUpon>behaviour.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\class.resx">
+      <DependentUpon>class.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\classdialog.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>classdialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\major.resx">
+      <DependentUpon>major.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\proces.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>proces.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\schooltype.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>schooltype.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\select_teacher.resx">
+      <DependentUpon>select_teacher.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\inputnumber.resx">
+      <DependentUpon>inputnumber.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\lessonteacher.resx">
+      <DependentUpon>lessonteacher.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\listnumber2.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>listnumber2.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\listnumber.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>listnumber.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main Form.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Main Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\prepaid.resx">
+      <DependentUpon>prepaid.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\mini_dialog_form.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>mini_dialog_form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\preview.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>preview.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\test.resx">
+      <DependentUpon>test.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\studentregister.resx">
+      <DependentUpon>studentregister.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\select_st.resx">
+      <DependentUpon>select_st.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\teacher.resx">
+      <DependentUpon>teacher.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\print_student.resx">
+      <DependentUpon>print_student.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\print_listnumber.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>print_listnumber.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\mali.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>mali.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\ravand_salane.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>ravand_salane.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\rep3_salane.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rep3_salane.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\student_nogroup.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>student_nogroup.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\student_major.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>student_major.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\student_grade.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>student_grade.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\student_class.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>student_class.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\teacherwork.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>teacherwork.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\selectclass.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>selectclass.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\Splash.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Splash.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\aghsat.resx">
+      <DependentUpon>aghsat.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\student_av_list.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>student_av_list.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\studentlist_av.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>studentlist_av.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\tofamily.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>tofamily.cs</LastGenOutput>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Form\test.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\test.Designer.cs">
+      <DependentUpon>test.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\studentregister.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\studentregister.Designer.cs">
+      <DependentUpon>studentregister.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\select_st.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\select_st.Designer.cs">
+      <DependentUpon>select_st.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\teacher.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\teacher.Designer.cs">
+      <DependentUpon>teacher.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\print_student.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\print_student.Designer.cs">
+      <DependentUpon>print_student.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\print_listnumber.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\print_listnumber.Designer.cs">
+      <DependentUpon>print_listnumber.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Report\mali.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>mali.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\ravand_salane.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ravand_salane.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\rep3_salane.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rep3_salane.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\student_nogroup.cs">
+      <DependentUpon>student_nogroup.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Report\student_major.cs">
+      <DependentUpon>student_major.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Report\student_grade.cs">
+      <DependentUpon>student_grade.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Form\restorebackup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\restorebackup.Designer.cs">
+      <DependentUpon>restorebackup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Report\teacherwork.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>teacherwork.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Form\selectclass.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\selectclass.Designer.cs">
+      <DependentUpon>selectclass.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Settings.cs" />
+    <Compile Include="Report\student_class.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>student_class.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Form\Splash.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\Splash.Designer.cs">
+      <DependentUpon>Splash.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\aghsat.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\aghsat.Designer.cs">
+      <DependentUpon>aghsat.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\workteacher.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\workteacher.Designer.cs">
+      <DependentUpon>workteacher.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataSet\workteacher.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>workteacher.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Form\student_av_list.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\student_av_list.Designer.cs">
+      <DependentUpon>student_av_list.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Report\studentlist_av.cs">
+      <DependentUpon>studentlist_av.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Report\tofamily.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>tofamily.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\admin_48.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\admin_24.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tool.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\books_024.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\print.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\moalem.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\admin_24_2.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ICQRead38.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="Resources\addstud.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="admin_48.ico" />
+    <None Include="data.mdb">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <Content Include="adodb.dll" />
+    <Content Include="Help\help.htm">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Help\help.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <None Include="DataSet\dsp_class_salane.xsc">
+      <DependentUpon>dsp_class_salane.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet\dsp_class_salane.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsp_class_salane.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSet\dsp_class_salane.xss">
+      <DependentUpon>dsp_class_salane.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet\dsp_hamahang_list2.xsc">
+      <DependentUpon>dsp_hamahang_list2.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet\dsp_hamahang_list2.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsp_hamahang_list2.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSet\dsp_hamahang_list2.xss">
+      <DependentUpon>dsp_hamahang_list2.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet\dsp_hamahang_listnumber.xsc">
+      <DependentUpon>dsp_hamahang_listnumber.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet\dsp_hamahang_listnumber.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsp_hamahang_listnumber.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSet\dsp_hamahang_listnumber.xss">
+      <DependentUpon>dsp_hamahang_listnumber.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet\dsp_hamahang_st_sort.xsc">
+      <DependentUpon>dsp_hamahang_st_sort.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet\dsp_hamahang_st_sort.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsp_hamahang_st_sort.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSet\dsp_hamahang_st_sort.xss">
+      <DependentUpon>dsp_hamahang_st_sort.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet\dsp_hhamahang_report.xsc">
+      <DependentUpon>dsp_hhamahang_report.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet\dsp_hhamahang_report.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsp_hhamahang_report.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSet\dsp_hhamahang_report.xss">
+      <DependentUpon>dsp_hhamahang_report.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet\dsp_list_number_tiz2.xsc">
+      <DependentUpon>dsp_list_number_tiz2.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet\dsp_list_number_tiz2.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsp_list_number_tiz2.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSet\dsp_list_number_tiz2.xss">
+      <DependentUpon>dsp_list_number_tiz2.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet\dsp_list_number_tizhoshan.xsc">
+      <DependentUpon>dsp_list_number_tizhoshan.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet\dsp_list_number_tizhoshan.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsp_list_number_tizhoshan.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSet\dsp_list_number_tizhoshan.xss">
+      <DependentUpon>dsp_list_number_tizhoshan.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet\dsp_print_lesson.xsc">
+      <DependentUpon>dsp_print_lesson.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet\dsp_print_lesson.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsp_print_lesson.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSet\dsp_print_lesson.xss">
+      <DependentUpon>dsp_print_lesson.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet\ds_cost_koli.xsc">
+      <DependentUpon>ds_cost_koli.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet\ds_cost_koli.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ds_cost_koli.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSet\ds_cost_koli.xss">
+      <DependentUpon>ds_cost_koli.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet\ds_hamahang_test.xsc">
+      <DependentUpon>ds_hamahang_test.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet\ds_hamahang_test.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ds_hamahang_test.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSet\ds_hamahang_test.xss">
+      <DependentUpon>ds_hamahang_test.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet\ds_hamhang.xsc">
+      <DependentUpon>ds_hamhang.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet\ds_hamhang.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ds_hamhang.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DataSet\ds_hamhang.xss">
+      <DependentUpon>ds_hamhang.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet\ds_paye_av_list.xsc">
+      <DependentUpon>ds_paye_av_list.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet\ds_paye_av_list.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ds_paye_av_list.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSet\ds_paye_av_list.xss">
+      <DependentUpon>ds_paye_av_list.xsd</DependentUpon>
+    </None>
+    <None Include="Resources\TaskHS.png" />
+    <None Include="DataSet\ds_cost.xsc">
+      <DependentUpon>ds_cost.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet\ds_cost.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ds_cost.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DataSet\ds_cost.xss">
+      <DependentUpon>ds_cost.xsd</DependentUpon>
+    </None>
+    <None Include="Resources\aboutpic.gif" />
+    <None Include="Resources\WarningHS.png" />
+    <None Include="Resources\splashpic.jpg" />
+    <None Include="Resources\repair.ico" />
+    <None Include="Resources\_disabled_ No.ico" />
+    <None Include="DataSet\ds_studentlist_av.xsc">
+      <DependentUpon>ds_studentlist_av.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet\ds_studentlist_av.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ds_studentlist_av.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSet\ds_studentlist_av.xss">
+      <DependentUpon>ds_studentlist_av.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet\dsp_behavclass.xsc">
+      <DependentUpon>dsp_behavclass.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet\dsp_behavclass.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsp_behavclass.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSet\dsp_behavclass.xss">
+      <DependentUpon>dsp_behavclass.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet\ds_classstudent.xsc">
+      <DependentUpon>ds_classstudent.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet\ds_classstudent.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ds_classstudent.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSet\ds_classstudent.xss">
+      <DependentUpon>ds_classstudent.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet\ds_reporttofamily.xsc">
+      <DependentUpon>ds_reporttofamily.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet\ds_reporttofamily.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ds_reporttofamily.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSet\ds_reporttofamily.xss">
+      <DependentUpon>ds_reporttofamily.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet\ds_studentbyclass.xsc">
+      <DependentUpon>ds_studentbyclass.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet\ds_studentbyclass.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ds_studentbyclass.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSet\ds_studentbyclass.xss">
+      <DependentUpon>ds_studentbyclass.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet\dsp_mali.xsc">
+      <DependentUpon>dsp_mali.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet\dsp_mali.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsp_mali.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSet\dsp_mali.xss">
+      <DependentUpon>dsp_mali.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet\dsp_teacherwork.xsc">
+      <DependentUpon>dsp_teacherwork.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet\dsp_teacherwork.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsp_teacherwork.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSet\dsp_teacherwork.xss">
+      <DependentUpon>dsp_teacherwork.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet\dsp_moadelwithvahed.xsc">
+      <DependentUpon>dsp_moadelwithvahed.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet\dsp_moadelwithvahed.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsp_moadelwithvahed.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSet\dsp_moadelwithvahed.xss">
+      <DependentUpon>dsp_moadelwithvahed.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet\ds_aghsat.xsc">
+      <DependentUpon>ds_aghsat.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet\ds_aghsat.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ds_aghsat.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSet\ds_aghsat.xss">
+      <DependentUpon>ds_aghsat.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet\dsp_nemodar.xsc">
+      <DependentUpon>dsp_nemodar.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet\dsp_nemodar.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsp_nemodar.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSet\dsp_nemodar.xss">
+      <DependentUpon>dsp_nemodar.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet\dsp_mali2.xsc">
+      <DependentUpon>dsp_mali2.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet\dsp_mali2.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsp_mali2.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSet\dsp_mali2.xss">
+      <DependentUpon>dsp_mali2.xsd</DependentUpon>
+    </None>
+    <None Include="Resources\warning.ico" />
+    <None Include="Resources\unlock.ico" />
+    <None Include="DataSet\dsp_listnumber3.xsc">
+      <DependentUpon>dsp_listnumber3.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet\dsp_listnumber3.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsp_listnumber3.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSet\dsp_listnumber3.xss">
+      <DependentUpon>dsp_listnumber3.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet\dsp_behav.xsc">
+      <DependentUpon>dsp_behav.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet\dsp_behav.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsp_behav.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSet\dsp_behav.xss">
+      <DependentUpon>dsp_behav.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet\dsp_listnumber.xsc">
+      <DependentUpon>dsp_listnumber.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet\dsp_listnumber.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsp_listnumber.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSet\dsp_listnumber.xss">
+      <DependentUpon>dsp_listnumber.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet\dsp_student.xsc">
+      <DependentUpon>dsp_student.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet\dsp_student.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsp_student.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSet\dsp_student.xss">
+      <DependentUpon>dsp_student.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet\ds_inputnumber.xsc">
+      <DependentUpon>ds_inputnumber.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet\ds_inputnumber.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ds_inputnumber.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DataSet\ds_inputnumber.xss">
+      <DependentUpon>ds_inputnumber.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet\dsp_listnumber2.xsc">
+      <DependentUpon>dsp_listnumber2.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet\dsp_listnumber2.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsp_listnumber2.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSet\dsp_listnumber2.xss">
+      <DependentUpon>dsp_listnumber2.xsd</DependentUpon>
+    </None>
+    <None Include="Resources\previewp.ico" />
+    <None Include="DataSet\ds_class.xsc">
+      <DependentUpon>ds_class.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet\ds_class.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ds_class.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSet\ds_class.xss">
+      <DependentUpon>ds_class.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet\ds_classdialog.xsc">
+      <DependentUpon>ds_classdialog.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet\ds_classdialog.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ds_classdialog.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DataSet\ds_classdialog.xss">
+      <DependentUpon>ds_classdialog.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet\ds_lesson.xsc">
+      <DependentUpon>ds_lesson.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet\ds_lesson.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ds_lesson.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DataSet\ds_lesson.xss">
+      <DependentUpon>ds_lesson.xsd</DependentUpon>
+    </None>
+    <None Include="Resources\003838.ico" />
+    <None Include="DataSet\ds_score.xsc">
+      <DependentUpon>ds_score.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet\ds_score.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ds_score.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DataSet\ds_score.xss">
+      <DependentUpon>ds_score.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet\ds_prepaidstudent.xsc">
+      <DependentUpon>ds_prepaidstudent.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet\ds_prepaidstudent.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ds_prepaidstudent.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DataSet\ds_prepaidstudent.xss">
+      <DependentUpon>ds_prepaidstudent.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet\ds_student.xsc">
+      <DependentUpon>ds_student.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet\ds_student.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ds_student.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSet\ds_student.xss">
+      <DependentUpon>ds_student.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet\ds_behaviour.xsc">
+      <DependentUpon>ds_behaviour.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet\ds_behaviour.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ds_behaviour.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DataSet\ds_behaviour.xss">
+      <DependentUpon>ds_behaviour.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet\ds_choosest.xsc">
+      <DependentUpon>ds_choosest.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet\ds_choosest.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ds_choosest.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DataSet\ds_choosest.xss">
+      <DependentUpon>ds_choosest.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet\ds_teacher.xsc">
+      <DependentUpon>ds_teacher.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet\ds_teacher.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ds_teacher.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DataSet\ds_teacher.xss">
+      <DependentUpon>ds_teacher.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet\ds_lessonteacher.xsc">
+      <DependentUpon>ds_lessonteacher.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet\ds_lessonteacher.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ds_lessonteacher.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DataSet\ds_lessonteacher.xss">
+      <DependentUpon>ds_lessonteacher.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet\ds_major.xsc">
+      <DependentUpon>ds_major.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet\ds_major.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ds_major.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSet\ds_major.xss">
+      <DependentUpon>ds_major.xsd</DependentUpon>
+    </None>
+    <None Include="Resources\new_bookmark.gif" />
+    <None Include="Resources\fSEARCH_00.gif" />
+    <None Include="Resources\ExitH51.png" />
+    <None Include="Resources\DeleteHS.png" />
+    <None Include="Resources\DataContainer_MovePreviousHS.png" />
+    <None Include="Resources\DataContainer_MoveNextHS.png" />
+    <None Include="Resources\DataContainer_MoveLastHS.png" />
+    <None Include="Resources\small_save.png" />
+    <None Include="Resources\DataContainer_MoveFirsHS.png" />
+    <None Include="DataSet\workteacher.xsc">
+      <DependentUpon>workteacher.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet\workteacher.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>workteacher.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DataSet\workteacher.xss">
+      <DependentUpon>workteacher.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{967B4E0D-AD0C-4609-AB67-0FA40C0206D8}" />
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="ADOX">
+      <Guid>{00000600-0000-0010-8000-00AA006D2EA4}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>8</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
